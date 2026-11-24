@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translate English to Arabic — Free Online Translator with Phrasebook & Guides</title>
+<meta name="description" content="Translate English to Arabic free online. Instant Modern Standard Arabic translations in real Arabic script (right-to-left), a 48-phrase Arabic phrasebook with pronunciation, and 16 beginner-friendly guides to the Arabic language.">
+<meta name="google-site-verification" content="HoWofmErOOKMSn8dHeXvBTb5cGoEBEB1rQ7Y3CrUYgY">
+<link rel="canonical" href="https://translateenglishtoarabic.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Translate English to Arabic">
+<meta property="og:title" content="Translate English to Arabic — Free Online Translator">
+<meta property="og:description" content="Free English to Arabic translator with real Arabic script, a phrasebook with pronunciation, and 16 guides to learning Arabic.">
+<meta property="og:url" content="https://translateenglishtoarabic.github.io/">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Translate English to Arabic","url":"https://translateenglishtoarabic.github.io/","description":"Free online English to Arabic translator with phrasebook and Arabic learning guides."}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--purple:#3d1470;--purple2:#5b21a6;--gold:#c9a227;--gold2:#e7c65a;--ink:#241533;--muted:#6b6280;--bg:#faf8fd;--card:#ffffff;--line:#e7ddf5}
+body{font-family:'Segoe UI',system-ui,-apple-system,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+a{color:var(--purple2);text-decoration:none}
+a:hover{text-decoration:underline}
+.ar{font-family:'Noto Naskh Arabic','Segoe UI',serif;font-size:1.12em}
+header{background:linear-gradient(135deg,#2a0a52,var(--purple) 55%,var(--purple2));color:#fff;position:sticky;top:0;z-index:50;box-shadow:0 2px 14px rgba(42,10,82,.35)}
+.hwrap{max-width:1120px;margin:0 auto;padding:14px 18px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.logo{font-size:1.28rem;font-weight:800;color:#fff;letter-spacing:.2px}
+.logo span{color:var(--gold2)}
+nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:#eee7fb;padding:7px 11px;border-radius:8px;font-size:.95rem}
+nav a:hover{background:rgba(255,255,255,.14);text-decoration:none}
+nav a.on{background:var(--gold);color:#241533;font-weight:700}
+main{max-width:1120px;margin:0 auto;padding:26px 18px 10px}
+.page{display:none}
+.page.active{display:block}
+.hero{text-align:center;padding:18px 6px 6px}
+.hero h1{font-size:2.15rem;line-height:1.2;color:var(--purple)}
+.hero h1 .gold{color:var(--gold)}
+.hero p{max-width:760px;margin:12px auto 0;color:var(--muted);font-size:1.05rem}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin:24px auto 8px;max-width:920px;box-shadow:0 8px 30px rgba(61,20,112,.08)}
+.langrow{display:flex;align-items:center;gap:10px;justify-content:space-between;margin-bottom:12px}
+.lang{font-weight:700;color:var(--purple);background:#f3edfd;border:1px solid var(--line);padding:8px 14px;border-radius:10px;flex:1;text-align:center}
+.swap{width:44px;height:44px;border-radius:50%;border:2px solid var(--gold);background:#fff;color:var(--purple);font-size:1.15rem;cursor:pointer;flex:0 0 auto}
+.swap:hover{background:var(--gold2)}
+.boxes{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:720px){.boxes{grid-template-columns:1fr}}
+textarea{width:100%;min-height:150px;border:1.5px solid var(--line);border-radius:12px;padding:13px;font-size:1.05rem;font-family:inherit;resize:vertical;background:#fff;color:var(--ink)}
+textarea:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+textarea.arabic{font-family:'Noto Naskh Arabic','Segoe UI',serif;font-size:1.25rem;line-height:1.9}
+.counter{font-size:.82rem;color:var(--muted);margin-top:5px;text-align:right}
+.btnrow{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.btn{border:none;cursor:pointer;border-radius:10px;padding:12px 22px;font-size:1rem;font-weight:700}
+.btn-main{background:var(--purple);color:#fff}
+.btn-main:hover{background:var(--purple2)}
+.btn-gold{background:var(--gold);color:#241533}
+.btn-gold:hover{background:var(--gold2)}
+.btn-ghost{background:#fff;border:1.5px solid var(--line);color:var(--purple)}
+.chips{margin-top:14px;font-size:.9rem;color:var(--muted)}
+.chip{display:inline-block;background:#f3edfd;border:1px solid var(--line);color:var(--purple);border-radius:999px;padding:4px 12px;margin:3px 3px 0 0;cursor:pointer;font-size:.88rem}
+.chip:hover{background:var(--gold2);color:#241533}
+.recents{margin-top:16px;border-top:1px dashed var(--line);padding-top:12px;display:none}
+.recents h3{font-size:.95rem;color:var(--purple);margin-bottom:8px}
+.recent{border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin-bottom:8px;cursor:pointer;background:#fff}
+.recent:hover{border-color:var(--gold)}
+.recent .r-src{font-size:.9rem;color:var(--muted)}
+.recent .r-tgt{font-weight:600}
+.status{font-size:.9rem;color:var(--muted);margin-top:8px;min-height:1.2em}
+section.block{max-width:920px;margin:34px auto 0}
+section.block h2{color:var(--purple);font-size:1.55rem;margin-bottom:12px;border-bottom:3px solid var(--gold);display:inline-block;padding-bottom:4px}
+section.block p{margin-bottom:13px}
+.popgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:13px;margin-top:6px}
+.pop{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+.pop .en{font-weight:700}
+.pop .arab{font-family:'Noto Naskh Arabic',serif;font-size:1.3rem;color:var(--purple);margin:3px 0}
+.pop .tr{color:var(--muted);font-size:.88rem;font-style:italic}
+.ggrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:15px;margin-top:6px}
+.gcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:17px}
+.gcard:hover{border-color:var(--gold);box-shadow:0 4px 18px rgba(61,20,112,.09)}
+.tag{display:inline-block;background:var(--purple);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.4px;text-transform:uppercase;border-radius:999px;padding:3px 10px;margin-bottom:9px}
+.gcard h3{font-size:1.08rem;margin-bottom:6px}
+.gcard h3 a{color:var(--ink)}
+.gcard p{font-size:.93rem;color:var(--muted)}
+article.guide{max-width:820px;margin:0 auto}
+article.guide h1{color:var(--purple);font-size:1.9rem;line-height:1.3;margin:8px 0 16px}
+article.guide h2{color:var(--purple);font-size:1.3rem;margin:24px 0 9px}
+article.guide p{margin-bottom:13px}
+article.guide ul{margin:0 0 14px 22px}
+article.guide li{margin-bottom:6px}
+.backlink{display:inline-block;margin-top:22px;font-weight:700}
+table.phrases{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+table.phrases th{background:var(--purple);color:#fff;text-align:left;padding:11px 13px;font-size:.92rem}
+table.phrases td{padding:10px 13px;border-top:1px solid var(--line);vertical-align:top}
+table.phrases td.a{font-family:'Noto Naskh Arabic',serif;font-size:1.25rem;color:var(--purple)}
+table.phrases td.t{color:var(--muted);font-style:italic}
+.copybtn{border:1.5px solid var(--gold);background:#fff;color:var(--purple);border-radius:8px;padding:5px 12px;cursor:pointer;font-weight:700;font-size:.83rem}
+.copybtn:hover{background:var(--gold2)}
+.psearch{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;font-size:1rem;margin-bottom:12px}
+.catbtns{margin-bottom:14px}
+.catbtns button{border:1.5px solid var(--line);background:#fff;color:var(--purple);border-radius:999px;padding:6px 14px;margin:0 5px 6px 0;cursor:pointer;font-weight:600}
+.catbtns button.on{background:var(--purple);color:#fff;border-color:var(--purple)}
+.faqitem{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+.faqitem h3{color:var(--purple);font-size:1.05rem;margin-bottom:6px}
+.static{max-width:820px;margin:0 auto}
+.static h1{color:var(--purple);font-size:1.8rem;margin-bottom:14px}
+.static h2{color:var(--purple);font-size:1.25rem;margin:22px 0 8px}
+.static p{margin-bottom:12px}
+.static ul,.static ol{margin:0 0 13px 22px}
+.static li{margin-bottom:6px}
+.mailbig{display:inline-block;background:#f3edfd;border:1.5px solid var(--gold);border-radius:12px;padding:14px 22px;font-size:1.15rem;font-weight:700;margin:10px 0}
+footer{background:#2a0a52;color:#d9cdf2;margin-top:48px}
+.fwrap{max-width:1120px;margin:0 auto;padding:30px 18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+footer h4{color:var(--gold2);margin-bottom:10px;font-size:.98rem}
+footer a{color:#d9cdf2;display:block;padding:2px 0;font-size:.92rem}
+footer a:hover{color:#fff}
+.fbottom{border-top:1px solid rgba(255,255,255,.15);text-align:center;padding:15px;font-size:.88rem;color:#bdaedd}
+</style>
+</head>
+<body>
+<header>
+  <div class="hwrap">
+    <a class="logo" href="#home">Translate English to <span>Arabic</span></a>
+    <nav id="topnav">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#how" data-nav="how">How to Use</a>
+      <a href="#phrases" data-nav="phrases">Phrasebook</a>
+      <a href="#guides" data-nav="guides">Guides</a>
+      <a href="#faq" data-nav="faq">FAQ</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+
+<section class="page" id="page-home">
+  <div class="hero">
+    <h1>Translate English to <span class="gold">Arabic</span></h1>
+    <p>Free Online Translator — type or paste any English word, sentence or paragraph and get a clear Arabic translation in real Arabic script, written right-to-left, instantly and with no sign-up. You can also swap the direction and translate Arabic back into English.</p>
+  </div>
+  <div class="tool">
+    <div class="langrow">
+      <div class="lang" id="srcLang">English</div>
+      <button class="swap" id="swapBtn" title="Swap languages" aria-label="Swap languages">&#8646;</button>
+      <div class="lang" id="tgtLang">Arabic (&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;)</div>
+    </div>
+    <div class="boxes">
+      <div>
+        <textarea id="srcText" maxlength="2000" placeholder="Enter English text"></textarea>
+        <div class="counter"><span id="charCount">0</span> / 2,000 characters</div>
+      </div>
+      <div>
+        <textarea id="tgtText" readonly placeholder="Your Arabic translation will appear here." dir="rtl" class="arabic"></textarea>
+        <div class="counter">Translation</div>
+      </div>
+    </div>
+    <div class="btnrow">
+      <button class="btn btn-main" id="translateBtn">Translate</button>
+      <button class="btn btn-gold" id="copyBtn">Copy translation</button>
+      <button class="btn btn-ghost" id="clearBtn">Clear</button>
+    </div>
+    <div class="status" id="statusLine"></div>
+    <div class="chips">Try an example:
+      <span class="chip" data-ex="Hello, how are you?">Hello, how are you?</span>
+      <span class="chip" data-ex="Thank you very much">Thank you very much</span>
+      <span class="chip" data-ex="Where is the hospital?">Where is the hospital?</span>
+    </div>
+    <div class="recents" id="recentsBox">
+      <h3>Recent translations</h3>
+      <div id="recentsList"></div>
+    </div>
+  </div>
+  <section class="block">
+    <h2>Why translate English to Arabic with this tool?</h2>
+    <p>Arabic is the language of more than 400 million people, from Morocco on the Atlantic to Oman on the Indian Ocean, and one of the great world languages of history, science and poetry. Whether you are preparing a message for family, studying the language, travelling to Egypt, the Emirates, Saudi Arabia or Jordan, or localising content for Arabic readers, a fast and dependable translator saves real time. This tool gives you the translation in proper Arabic script — flowing right-to-left exactly as Arabic is written — so you can copy it straight into WhatsApp, an email, a document or a social media post and it will read naturally to a native speaker.</p>
+    <p>The translator handles single words, everyday sentences and full paragraphs of up to 2,000 characters. Common everyday phrases are answered instantly from a built-in <a href="#phrases">Arabic phrasebook</a>, and everything else is translated live into clear Modern Standard Arabic — the shared written form understood in every Arab country. If you are just starting with the language, our <a href="#guides">guides</a> will take you from your first <span class="ar" dir="rtl">مرحبا</span> (marhaban — hello) to real conversations: begin with <a href="#guide-beginners">Arabic for Beginners</a> and the <a href="#guide-alphabet">Arabic alphabet</a>, then build your <a href="#guide-words">everyday vocabulary</a> word by word.</p>
+  </section>
+  <section class="block">
+    <h2>Popular translations</h2>
+    <div class="popgrid">
+<div class="pop"><div class="en">Hello</div><div class="arab" dir="rtl">مرحبا</div><div class="tr">marhaban</div></div>
+<div class="pop"><div class="en">Thank you</div><div class="arab" dir="rtl">شكرا</div><div class="tr">shukran</div></div>
+<div class="pop"><div class="en">Good morning</div><div class="arab" dir="rtl">صباح الخير</div><div class="tr">sabah al-khayr</div></div>
+<div class="pop"><div class="en">How are you?</div><div class="arab" dir="rtl">كيف حالك؟</div><div class="tr">kayfa haluk?</div></div>
+<div class="pop"><div class="en">Welcome</div><div class="arab" dir="rtl">أهلا وسهلا</div><div class="tr">ahlan wa sahlan</div></div>
+<div class="pop"><div class="en">Good night</div><div class="arab" dir="rtl">تصبح على خير</div><div class="tr">tusbih ala khayr</div></div>
+<div class="pop"><div class="en">I love you</div><div class="arab" dir="rtl">أحبك</div><div class="tr">uhibbuk</div></div>
+<div class="pop"><div class="en">Happy birthday</div><div class="arab" dir="rtl">عيد ميلاد سعيد</div><div class="tr">eid milad saeed</div></div>
+<div class="pop"><div class="en">Congratulations</div><div class="arab" dir="rtl">مبروك</div><div class="tr">mabrook</div></div>
+<div class="pop"><div class="en">Please help me</div><div class="arab" dir="rtl">ساعدني من فضلك</div><div class="tr">saa&#x27;idni min fadlik</div></div>
+<div class="pop"><div class="en">See you tomorrow</div><div class="arab" dir="rtl">أراك غدا</div><div class="tr">araka ghadan</div></div>
+<div class="pop"><div class="en">Arabic is beautiful</div><div class="arab" dir="rtl">العربية لغة جميلة</div><div class="tr">al-arabiyya lugha jameela</div></div>
+    </div>
+  </section>
+  <section class="block">
+    <h2>Learn Arabic with our guides</h2>
+    <div class="ggrid">
+<div class="gcard"><span class="tag">Getting Started</span><h3><a href="#guide-beginners">Arabic for Beginners</a></h3><p>A friendly first guide to the language of the Arab world — its sounds, its flowing script and the words to learn first.</p></div>
+<div class="gcard"><span class="tag">The Script</span><h3><a href="#guide-alphabet">The Arabic Alphabet</a></h3><p>Meet the 28 letters of Arabic, see how each one changes shape inside a word, and learn to read right to left with confidence.</p></div>
+<div class="gcard"><span class="tag">Better Results</span><h3><a href="#guide-tips">Translate More Accurately</a></h3><p>Nine practical tips for getting natural, correct Arabic out of any English-to-Arabic translation, from dialect choices to missing vowels.</p></div>
+<div class="gcard"><span class="tag">Travel</span><h3><a href="#guide-travel">Arabic for Travellers</a></h3><p>The phrases that open doors from Cairo to Dubai — in cafés, taxis, souks, hotels and desert towns across the Arab world.</p></div>
+<div class="gcard"><span class="tag">Numbers &amp; Counting</span><h3><a href="#guide-numbers">Arabic Numbers</a></h3><p>Count, bargain and tell prices like a local — Arabic numbers from one to a thousand, plus the famous Arabic-Indic digits.</p></div>
+<div class="gcard"><span class="tag">Vocabulary</span><h3><a href="#guide-words">Everyday Vocabulary</a></h3><p>Sixty high-frequency Arabic words grouped by theme — home, food, nature, people and the small words that hold sentences together.</p></div>
+<div class="gcard"><span class="tag">Time &amp; Dates</span><h3><a href="#guide-time">Days, Months &amp; Time</a></h3><p>Name the days, plan by the month and ask the time in Arabic — including the Hijri months like Ramadan and Muharram.</p></div>
+<div class="gcard"><span class="tag">Family</span><h3><a href="#guide-family">Family Words</a></h3><p>Ab, umm, akh, ukht — learn what every Arabic family word means and how Arab families actually address each other.</p></div>
+<div class="gcard"><span class="tag">Speaking</span><h3><a href="#guide-greetings">Greetings &amp; Goodbyes</a></h3><p>Beyond marhaban: the great Islamic greeting and its reply, morning wishes, phone manners and how Arabs really say goodbye.</p></div>
+<div class="gcard"><span class="tag">Shopping</span><h3><a href="#guide-shopping">Shopping &amp; Bargaining</a></h3><p>Ask prices, compare sizes and bargain politely in the souks and shops of the Arab world — the exact Arabic lines vendors expect to hear.</p></div>
+<div class="gcard"><span class="tag">Emergency</span><h3><a href="#guide-emergency">Emergency &amp; Health</a></h3><p>The Arabic lines nobody wants to need and everybody should know — help, hospitals, symptoms, medicines and staying safe.</p></div>
+<div class="gcard"><span class="tag">Grammar Basics</span><h3><a href="#guide-questions">Questions &amp; Pronouns</a></h3><p>What, who, where, when, why and how — plus I, you, we and they. The small Arabic words that unlock real conversation.</p></div>
+<div class="gcard"><span class="tag">Culture</span><h3><a href="#guide-festivals">Ramadan, Eid &amp; Festivals</a></h3><p>The holy month, the two great Eids and the greetings that go with them — Ramadan Kareem, Eid Mubarak and the culture behind the words.</p></div>
+<div class="gcard"><span class="tag">Speaking</span><h3><a href="#guide-introduce">Introduce Yourself</a></h3><p>Your name, your hometown, your work and your first small talk — a complete Arabic self-introduction you can learn in one sitting.</p></div>
+<div class="gcard"><span class="tag">Food &amp; Drink</span><h3><a href="#guide-food">Arabic for Food Lovers</a></h3><p>Kabsa, shawarma, falafel, kunafa — the dishes to know, the words to order them with, and how to praise the cook in Arabic.</p></div>
+<div class="gcard"><span class="tag">Grammar Basics</span><h3><a href="#guide-sentences">How Arabic Sentences Work</a></h3><p>The verb comes first, there is no word for &#x27;is&#x27;, and every noun is masculine or feminine — Arabic sentence-building made simple.</p></div>
+    </div>
+    <p style="margin-top:14px">Browse the full library on the <a href="#guides">Guides page</a>, keep the <a href="#phrases">phrasebook</a> open while you practise, and read the <a href="#how">How to Use</a> page for shortcuts that make translating faster.</p>
+  </section>
+</section>
+
+
+<section class="page" id="page-how">
+  <div class="static">
+    <h1>How to Use the English to Arabic Translator</h1>
+    <p>Translating a sentence takes less than ten seconds. Here is the whole process, step by step.</p>
+    <h2>Step 1 — Enter your English text</h2>
+    <p>Go to the translator on the <a href="#home">home page</a> and type or paste your English text into the left-hand box. You can enter a single word, a full sentence, or a paragraph of up to 2,000 characters. The counter under the box shows how much room you have left.</p>
+    <h2>Step 2 — Press Translate</h2>
+    <p>Click the <strong>Translate</strong> button (or press Ctrl + Enter). Everyday greetings and common phrases are answered instantly from the built-in phrasebook; everything else is translated live and appears in the right-hand box in Arabic script, correctly laid out right-to-left.</p>
+    <h2>Step 3 — Copy and use your translation</h2>
+    <p>Press <strong>Copy translation</strong> and paste the Arabic text wherever you need it — WhatsApp, Facebook, an email, a Word document or a presentation. Because the output is standard Unicode Arabic, it displays correctly on every phone and computer, and it keeps its right-to-left direction when pasted.</p>
+    <h2>Translating Arabic back into English</h2>
+    <p>Click the round swap button between the language names. The boxes change direction, the input box switches to right-to-left so you can type or paste Arabic comfortably, and you can read any Arabic message in English on the other side. This is handy when someone sends you an Arabic message and you want to understand it quickly.</p>
+    <h2>Handy shortcuts</h2>
+    <ul>
+      <li><strong>Example chips</strong> under the tool load a ready-made sentence so you can see how the translator works.</li>
+      <li><strong>Clear</strong> empties both boxes so you can start again.</li>
+      <li><strong>Recent translations</strong> keeps your latest results on this device during your visit, so you can re-copy one without translating again.</li>
+      <li>On the <a href="#phrases">Phrasebook page</a>, every phrase has its own copy button.</li>
+    </ul>
+    <h2>Tips for cleaner results</h2>
+    <p>Write complete sentences with normal punctuation, avoid heavy slang, and translate long documents one paragraph at a time. Our guide on <a href="#guide-tips">translating English to Arabic accurately</a> explains why these small habits — and knowing about gender forms and dialects — make a big difference.</p>
+  </div>
+</section>
+
+
+<section class="page" id="page-phrases">
+  <div class="static" style="max-width:980px">
+    <h1>Common English Phrases in Arabic</h1>
+    <p>Everyday English phrases with their Arabic translation in real Arabic script and a simple pronunciation guide in English letters. These phrases work instantly in the <a href="#home">translator</a> too. Use the search box or the category buttons to find what you need, and tap the copy button to copy any Arabic phrase.</p>
+    <input class="psearch" id="phraseSearch" type="text" placeholder="Search phrases...">
+    <div class="catbtns" id="catBtns"></div>
+    <div style="overflow-x:auto">
+    <table class="phrases">
+      <thead><tr><th>English</th><th>Arabic</th><th>Say it</th><th>Copy</th></tr></thead>
+      <tbody id="phraseBody">
+
+      </tbody>
+    </table>
+    </div>
+    <p style="margin-top:14px">Want the phrases in context? Read the <a href="#guide-travel">travel phrases guide</a> and the <a href="#guide-greetings">greetings guide</a>, or learn to <a href="#guide-introduce">introduce yourself</a> properly.</p>
+  </div>
+</section>
+
+
+<section class="page" id="page-guides">
+  <section class="block" style="margin-top:0">
+    <h2>Arabic Guides &amp; Articles</h2>
+    <p>Original, beginner-friendly articles about the Arabic language — how it works, how its script is built, and how to use it confidently on a trip to the Arab world or in everyday conversation.</p>
+    <div class="ggrid">
+<div class="gcard"><span class="tag">Getting Started</span><h3><a href="#guide-beginners">Arabic for Beginners: A Friendly Starting Guide</a></h3><p>What Arabic sounds like, how its right-to-left script works, why Modern Standard Arabic is the smart place to start, and the order in which to learn your first hundred words.</p></div>
+<div class="gcard"><span class="tag">The Script</span><h3><a href="#guide-alphabet">The Arabic Alphabet: 28 Letters and How They Join</a></h3><p>A complete tour of the Arabic script: all 28 letters with their sounds, the four shapes each letter takes, the letters that refuse to join, short vowels and the hamza explained.</p></div>
+<div class="gcard"><span class="tag">Better Results</span><h3><a href="#guide-tips">How to Translate English to Arabic Accurately</a></h3><p>Nine practical tips — from choosing Modern Standard Arabic over dialect to handling gender and names — that turn a rough machine translation into natural, believable Arabic.</p></div>
+<div class="gcard"><span class="tag">Travel</span><h3><a href="#guide-travel">Essential Arabic Phrases for Travelling in the Arab World</a></h3><p>Greetings, directions, food, shopping and emergencies: the phrases that make a trip to Egypt, the UAE, Saudi Arabia or Morocco smoother and friendlier, in Arabic script with pronunciation.</p></div>
+<div class="gcard"><span class="tag">Numbers &amp; Counting</span><h3><a href="#guide-numbers">Arabic Numbers 1 to 100: Counting Made Simple</a></h3><p>From wahed to mi&#x27;a: how Arabic counting works, the units, the tens, hundreds and thousands, and the two sets of digits you will see across the Arab world.</p></div>
+<div class="gcard"><span class="tag">Vocabulary</span><h3><a href="#guide-words">Everyday Arabic Vocabulary: 60 Words You Will Use Daily</a></h3><p>A practical starter dictionary: 60 everyday Arabic words with script and pronunciation, grouped into home and family, food, nature, people and places, describing words and essentials.</p></div>
+<div class="gcard"><span class="tag">Time &amp; Dates</span><h3><a href="#guide-time">Days, Months and Telling the Time in Arabic</a></h3><p>The seven days, parts of the day, the months of the year in both calendars used across the Arab world, and how to ask and tell the time in Arabic with confidence.</p></div>
+<div class="gcard"><span class="tag">Family</span><h3><a href="#guide-family">Family Words in Arabic: Relatives and Relationships</a></h3><p>Father, mother, brothers and sisters, uncles, aunts, in-laws and grandchildren: the complete Arabic family vocabulary, with the warmth built into each word explained.</p></div>
+<div class="gcard"><span class="tag">Speaking</span><h3><a href="#guide-greetings">Arabic Greetings and Goodbyes for Every Occasion</a></h3><p>The full greeting toolkit: as-salamu alaykum and its proper reply, time-of-day greetings, asking after someone&#x27;s health, congratulations and graceful goodbyes in Arabic.</p></div>
+<div class="gcard"><span class="tag">Shopping</span><h3><a href="#guide-shopping">Shopping and Bargaining in Arabic: Souk Phrases That Work</a></h3><p>From entering a shop to paying the bill: price questions, sizes and colours, gentle bargaining and the souk vocabulary that saves you money across the Arab world.</p></div>
+<div class="gcard"><span class="tag">Emergency</span><h3><a href="#guide-emergency">Emergency and Health Phrases in Arabic</a></h3><p>Essential emergency Arabic: calling for help, getting to a hospital, describing pain and symptoms, pharmacy words, police and safety phrases, with clear pronunciation.</p></div>
+<div class="gcard"><span class="tag">Grammar Basics</span><h3><a href="#guide-questions">Arabic Question Words and Pronouns: Ask Anything</a></h3><p>The complete question toolkit: ma, man, ayna, mata, limadha and kayfa, the personal pronouns from ana to hum, and how to build your first real Arabic questions.</p></div>
+<div class="gcard"><span class="tag">Culture</span><h3><a href="#guide-festivals">Ramadan, Eid and Arabic Festivals: Words and Wishes</a></h3><p>Ramadan and its nightly iftars, Eid al-Fitr, Eid al-Adha and Mawlid: the festivals of the Arab world explained, with the vocabulary and the exact Arabic wishes to send.</p></div>
+<div class="gcard"><span class="tag">Speaking</span><h3><a href="#guide-introduce">How to Introduce Yourself in Arabic</a></h3><p>A step-by-step Arabic self-introduction: saying your name, where you are from, your age and family, your job or studies, and a full worked example with translation.</p></div>
+<div class="gcard"><span class="tag">Food &amp; Drink</span><h3><a href="#guide-food">Arabic for Food Lovers: Eating Your Way Across the Arab World</a></h3><p>A delicious vocabulary tour: the great dishes of the Arab table from hummus to kunafa, how to order in a restaurant, dietary phrases and compliments for the cook.</p></div>
+<div class="gcard"><span class="tag">Grammar Basics</span><h3><a href="#guide-sentences">How Arabic Sentences Are Built: Word Order, Gender and Plurals</a></h3><p>How Arabic puts sentences together: verb-first and verbless sentences, the missing word for &#x27;is&#x27;, masculine and feminine nouns, plurals, and the root system that builds the vocabulary.</p></div>
+    </div>
+  </section>
+</section>
+
+<section class="page" id="page-guide-beginners"><article class="guide"><span class="tag">Getting Started</span><h1>Arabic for Beginners: A Friendly Starting Guide</h1>
+    <p>Arabic is the language of more than 400 million people across North Africa and the Middle East — and one of the six official languages of the United Nations. It can look intimidating at first, with its flowing right-to-left script and sounds that English does not have. But Arabic is also one of the most logical languages you can learn: its words are built from tidy root patterns, its spelling is consistent, and a small core vocabulary carries you surprisingly far.</p>
+    <h2>One language, many voices</h2>
+    <p>The first thing to understand is that "Arabic" comes in layers. <strong>Modern Standard Arabic</strong> (often shortened to MSA) is the shared written language of news broadcasts, books, official documents and this translator. Alongside it, every region speaks its own everyday dialect — Egyptian, Levantine, Gulf, Maghrebi and others. The smart strategy for a beginner is to start with MSA: everyone understands it, it unlocks reading, and you can pick up local dialect words later wherever you travel or settle.</p>
+    <h2>How Arabic sounds</h2>
+    <p>Arabic has a rich set of consonants, including deep "emphatic" sounds made at the back of the throat and the famous letter <span class="ar" dir="rtl">ع</span> (ayn), which has no English equivalent. Do not let that worry you — Arabic speakers are famously patient with learners, and a cheerful <span class="ar" dir="rtl">مرحبا</span> (marhaban — hello) is understood everywhere. Most everyday vocabulary uses sounds you already know.</p>
+    <h2>The script is friendlier than it looks</h2>
+    <p>Arabic has 28 letters, written from right to left, and most letters join to their neighbours like handwriting. That joining is the whole secret: each letter simply changes shape slightly depending on whether it stands at the start, middle or end of a word. Our <a href="#guide-alphabet">alphabet guide</a> walks through all 28 letters calmly, one group at a time.</p>
+    <h2>The first words to learn</h2>
+    <p>Start with survival words: <span class="ar" dir="rtl">مرحبا</span> (marhaban — hello), <span class="ar" dir="rtl">شكرا</span> (shukran — thank you), <span class="ar" dir="rtl">ماء</span> (ma' — water), <span class="ar" dir="rtl">طعام</span> (ta'am — food), <span class="ar" dir="rtl">كم الثمن؟</span> (kam ath-thaman? — how much is it?) and <span class="ar" dir="rtl">أين؟</span> (ayna? — where?). Add the numbers one to ten and the question words, and you can already handle taxis, cafés and market stalls. Our <a href="#guide-words">everyday vocabulary guide</a> gives you sixty of the most useful words in one place.</p>
+    <h2>A realistic study routine</h2>
+    <p>Fifteen minutes a day beats a monthly marathon. Spend five minutes on the script, five on new words, and five speaking aloud — even to yourself. Use the <a href="#home">translator</a> on this site to check sentences about your own life: your family, your job, your town. Personal sentences stick in memory far better than textbook ones.</p>
+    <p>Above all, speak from the first week. A single <span class="ar" dir="rtl">السلام عليكم</span> (as-salamu alaykum — peace be upon you) offered in a Cairo café or a Dubai shop will teach you more about Arab hospitality than a chapter of grammar. Ahlan wa sahlan — welcome to the language.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-alphabet">The Arabic Alphabet</a> &middot; <a href="#guide-tips">Translate More Accurately</a> &middot; <a href="#guide-travel">Arabic for Travellers</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-alphabet"><article class="guide"><span class="tag">The Script</span><h1>The Arabic Alphabet: 28 Letters and How They Join</h1>
+    <p>Arabic writing flows from right to left in a connected, cursive style — and once you understand its one big idea, it stops looking mysterious. The idea is this: Arabic has only 28 letters, and almost every letter changes its shape depending on where it sits in a word. Learn the letters and their shapes, and you can sound out any word in the language, even one you have never seen before.</p>
+    <h2>The 28 letters</h2>
+    <p>Here are the letters in their traditional order, with the sound each one makes: <span class="ar" dir="rtl">ا</span> a (alif), <span class="ar" dir="rtl">ب</span> b, <span class="ar" dir="rtl">ت</span> t, <span class="ar" dir="rtl">ث</span> th (as in "think"), <span class="ar" dir="rtl">ج</span> j, <span class="ar" dir="rtl">ح</span> a deep h, <span class="ar" dir="rtl">خ</span> kh (like clearing your throat), <span class="ar" dir="rtl">د</span> d, <span class="ar" dir="rtl">ذ</span> dh (as in "this"), <span class="ar" dir="rtl">ر</span> r, <span class="ar" dir="rtl">ز</span> z, <span class="ar" dir="rtl">س</span> s, <span class="ar" dir="rtl">ش</span> sh, <span class="ar" dir="rtl">ص</span> a heavy s, <span class="ar" dir="rtl">ض</span> a heavy d, <span class="ar" dir="rtl">ط</span> a heavy t, <span class="ar" dir="rtl">ظ</span> a heavy dh, <span class="ar" dir="rtl">ع</span> ayn (a deep throat sound), <span class="ar" dir="rtl">غ</span> gh, <span class="ar" dir="rtl">ف</span> f, <span class="ar" dir="rtl">ق</span> q (a deep k), <span class="ar" dir="rtl">ك</span> k, <span class="ar" dir="rtl">ل</span> l, <span class="ar" dir="rtl">م</span> m, <span class="ar" dir="rtl">ن</span> n, <span class="ar" dir="rtl">ه</span> h and <span class="ar" dir="rtl">و</span> w, <span class="ar" dir="rtl">ي</span> y. Count them: 28.</p>
+    <h2>Four shapes, one letter</h2>
+    <p>Most letters take up to four forms: isolated (standing alone), initial (start of a word), medial (middle) and final (end). Take the letter b: alone it is <span class="ar" dir="rtl">ب</span>, at the start <span class="ar" dir="rtl">بـ</span>, in the middle <span class="ar" dir="rtl">ـبـ</span>, and at the end <span class="ar" dir="rtl">ـب</span>. The shapes look different, but the core of the letter — its dots and its basic stroke — stays recognisable. Dots matter enormously: <span class="ar" dir="rtl">ب</span> (b, one dot below), <span class="ar" dir="rtl">ت</span> (t, two dots above) and <span class="ar" dir="rtl">ث</span> (th, three dots above) share one body with different dots.</p>
+    <h2>The letters that will not join</h2>
+    <p>Six letters — <span class="ar" dir="rtl">ا د ذ ر ز و</span> — connect to the letter before them but refuse to connect forward to the next one. That is why some Arabic words appear to break into pieces: the word for book, <span class="ar" dir="rtl">كتاب</span> (kitaab), shows a small gap after the alif. Expect these little breaks and reading becomes much easier.</p>
+    <h2>Where are the vowels?</h2>
+    <p>Long vowels are full letters: <span class="ar" dir="rtl">ا</span> (aa), <span class="ar" dir="rtl">و</span> (oo) and <span class="ar" dir="rtl">ي</span> (ee). Short vowels are small marks written above or below letters — called harakat — and everyday Arabic (signs, newspapers, messages) usually leaves them out. Readers supply the vowels from context, the way English readers understand "rd ths sntnc". Children's books and the Quran print every mark, which makes them excellent practice material for beginners.</p>
+    <h2>How to learn it</h2>
+    <p>Learn the letters in small groups, writing each one in all its positions. Then read real things — shop signs, product labels, headlines — and check doubtful words in the <a href="#home">translator</a>. Within a few weeks, Arabic script stops being decoration and starts being information.</p>
+    <p>Pair this guide with our <a href="#guide-beginners">beginners guide</a> and you have the complete foundation: script, sounds and a study routine, all working together.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-tips">Translate More Accurately</a> &middot; <a href="#guide-travel">Arabic for Travellers</a> &middot; <a href="#guide-numbers">Arabic Numbers</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-tips"><article class="guide"><span class="tag">Better Results</span><h1>How to Translate English to Arabic Accurately</h1>
+    <p>Machine translation between English and Arabic has improved enormously, but the two languages are built very differently — one reads left to right, the other right to left; one marks gender everywhere, the other barely at all. Small habits on your side make a big difference to the result. These nine tips come from the errors we see most often.</p>
+    <h2>1. Know which Arabic you are getting</h2>
+    <p>This translator produces <strong>Modern Standard Arabic</strong> — the formal, shared Arabic of writing, news and business, understood from Morocco to Iraq. That is the right choice for messages, documents and signs. If you need casual spoken dialect for one specific country, expect locals to still understand MSA perfectly well; they will simply hear it as polite and formal.</p>
+    <h2>2. Write complete sentences</h2>
+    <p>Fragments confuse translators because Arabic verb forms carry information English leaves to context. "Going tomorrow" could be a question, a plan or a command. Write "I am going tomorrow" and the Arabic comes out clean: <span class="ar" dir="rtl">سأذهب غدا</span> (sa-adhhab ghadan).</p>
+    <h2>3. Keep sentences short</h2>
+    <p>A forty-word English sentence with three clauses becomes tangled in any language pair. Split long sentences into two or three short ones before translating; the Arabic output will be dramatically more natural and much easier to check.</p>
+    <h2>4. Use punctuation properly</h2>
+    <p>Commas and full stops tell the translator where ideas end. Arabic uses the same full stop and a reversed comma (<span class="ar" dir="rtl">،</span>) and question mark (<span class="ar" dir="rtl">؟</span>), and the translator places them correctly when your English punctuation is clear. A missing full stop can glue two thoughts into one strange sentence.</p>
+    <h2>5. Avoid slang and idioms</h2>
+    <p>"It's raining cats and dogs" translated word by word produces very confused Arabic. Rewrite idioms plainly first — "it is raining heavily" — then translate. The meaning survives; the confusion does not.</p>
+    <h2>6. Be careful with names and places</h2>
+    <p>Translators sometimes translate names that happen to be ordinary words, or transliterate them inconsistently. If a person's or company's name must stay in English letters, translate the sentence in two parts and paste the name back in afterwards.</p>
+    <h2>7. Watch the gender</h2>
+    <p>Arabic marks gender in verbs, pronouns and adjectives — English does not. "You are welcome" said to a man and to a woman can come out differently, and "my friend" becomes <span class="ar" dir="rtl">صديقي</span> (sadeeqi — male friend) or <span class="ar" dir="rtl">صديقتي</span> (sadeeqati — female friend). When the result matters, add a hint in your English — "(to a woman)" in a draft note for yourself — and choose the form that fits the person you are addressing.</p>
+    <h2>8. Do not worry about missing short vowels</h2>
+    <p>The Arabic you receive will usually have no short-vowel marks, because that is how Arabic is normally written. Native readers expect this. If you are learning to read aloud, use the transliterations in our <a href="#phrases">phrasebook</a> to hear how the words sound.</p>
+    <h2>9. Back-translate to check</h2>
+    <p>Finally, paste the Arabic result back into the translator in the Arabic-to-English direction. If the English that returns matches what you meant, your translation is safe to send. Try it now on the <a href="#home">translator</a> — and keep our <a href="#guide-travel">travel phrases</a> handy if your translation is for a trip.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-travel">Arabic for Travellers</a> &middot; <a href="#guide-numbers">Arabic Numbers</a> &middot; <a href="#guide-words">Everyday Vocabulary</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-travel"><article class="guide"><span class="tag">Travel</span><h1>Essential Arabic Phrases for Travelling in the Arab World</h1>
+    <p>One Arabic phrasebook covers an enormous map — from the pyramids of Egypt to the towers of Dubai, the holy cities of Saudi Arabia and the medinas of Morocco. English is widely spoken in hotels and cities, but a greeting in Arabic at a café, a taxi rank or a souk stall changes the whole conversation. Here are the phrases that matter most, grouped by the moments you will actually use them.</p>
+    <h2>Greetings and courtesy</h2>
+    <p>The greeting you will hear everywhere is <span class="ar" dir="rtl">السلام عليكم</span> (as-salamu alaykum — peace be upon you); answer <span class="ar" dir="rtl">وعليكم السلام</span> (wa alaykum as-salam — and upon you peace). A simple <span class="ar" dir="rtl">مرحبا</span> (marhaban — hello) works anywhere too. Ask <span class="ar" dir="rtl">كيف حالك؟</span> (kayfa haluk? — how are you?) and answer <span class="ar" dir="rtl">أنا بخير</span> (ana bikhayr — I am fine). Thank everyone with <span class="ar" dir="rtl">شكرا</span> (shukran); it is short, sweet and always noticed.</p>
+    <h2>Getting around</h2>
+    <p>For taxis: <span class="ar" dir="rtl">كم الثمن؟</span> (kam ath-thaman? — how much is it?) settles the fare before you move in places where haggling is normal. <span class="ar" dir="rtl">توقف هنا من فضلك</span> (tawaqqaf huna min fadlik — stop here, please), <span class="ar" dir="rtl">انعطف يسارا</span> (in'atif yasaaran — turn left) and <span class="ar" dir="rtl">انعطف يمينا</span> (in'atif yameenan — turn right) handle directions, and <span class="ar" dir="rtl">اذهب مباشرة</span> (idhhab mubasharatan — go straight) keeps you on course.</p>
+    <h2>Food and drink</h2>
+    <p>Arab hospitality revolves around coffee and tea — you will be offered <span class="ar" dir="rtl">قهوة</span> (qahwa — coffee) constantly, and accepting is polite. Ask for <span class="ar" dir="rtl">ماء</span> (ma' — water) freely in the heat, declare <span class="ar" dir="rtl">أنا نباتي</span> (ana nabaati — I am vegetarian) if needed, and praise the food with <span class="ar" dir="rtl">إنه لذيذ</span> (innahu latheeth — it is delicious). Your host will beam.</p>
+    <h2>Shopping and bargaining</h2>
+    <p><span class="ar" dir="rtl">كم الثمن؟</span> (kam ath-thaman? — how much is this?) opens every negotiation in the souk. If the price feels high, smile and try again later — bargaining is a friendly ritual, not a fight. Finish with <span class="ar" dir="rtl">سآخذ هذا</span> (sa-aakhudh haadha — I will take this) when you are happy. Our <a href="#guide-shopping">shopping guide</a> has the full script.</p>
+    <h2>Emergencies and help</h2>
+    <p>Memorise three lines just in case: <span class="ar" dir="rtl">النجدة!</span> (an-najda! — help!), <span class="ar" dir="rtl">اتصل بطبيب</span> (ittasel bi-tabeeb — call a doctor) and <span class="ar" dir="rtl">أين المستشفى؟</span> (ayna al-mustashfa? — where is the hospital?). People across the Arab world are quick to help a traveller in trouble — often before you finish the sentence.</p>
+    <p>Save this page, copy the phrases you need from our <a href="#phrases">phrasebook</a>, and use the <a href="#home">translator</a> for anything else that comes up on the road. <span class="ar" dir="rtl">رحلة سعيدة!</span> (rihla saeeda! — have a happy journey!)</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-numbers">Arabic Numbers</a> &middot; <a href="#guide-words">Everyday Vocabulary</a> &middot; <a href="#guide-time">Days, Months &amp; Time</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-numbers"><article class="guide"><span class="tag">Numbers &amp; Counting</span><h1>Arabic Numbers 1 to 100: Counting Made Simple</h1>
+    <p>Numbers are among the first things you need in any language. In the Arab world you will use them for taxi fares, souk prices, hotel rooms, phone numbers and train times — often several times a day. Arabic counting has a few quirks, but once you know the first ten, the rest follows a learnable pattern.</p>
+    <h2>The numbers 1 to 10</h2>
+    <p>Everything starts here: <span class="ar" dir="rtl">واحد</span> (wahed — one), <span class="ar" dir="rtl">اثنان</span> (ithnan — two), <span class="ar" dir="rtl">ثلاثة</span> (thalatha — three), <span class="ar" dir="rtl">أربعة</span> (arba'a — four), <span class="ar" dir="rtl">خمسة</span> (khamsa — five), <span class="ar" dir="rtl">ستة</span> (sitta — six), <span class="ar" dir="rtl">سبعة</span> (sab'a — seven), <span class="ar" dir="rtl">ثمانية</span> (thamaniya — eight), <span class="ar" dir="rtl">تسعة</span> (tis'a — nine) and <span class="ar" dir="rtl">عشرة</span> (ashara — ten). Say them aloud a few times; vendors will recognise your effort instantly.</p>
+    <h2>The tens: 20 to 100</h2>
+    <p>The tens are: <span class="ar" dir="rtl">عشرون</span> (ishroon — twenty), <span class="ar" dir="rtl">ثلاثون</span> (thalathoon — thirty), <span class="ar" dir="rtl">أربعون</span> (arba'oon — forty), <span class="ar" dir="rtl">خمسون</span> (khamsoon — fifty), <span class="ar" dir="rtl">ستون</span> (sittoon — sixty), <span class="ar" dir="rtl">سبعون</span> (sab'oon — seventy), <span class="ar" dir="rtl">ثمانون</span> (thamanoon — eighty), <span class="ar" dir="rtl">تسعون</span> (tis'oon — ninety) and <span class="ar" dir="rtl">مئة</span> (mi'a — one hundred). Numbers in between put the unit first, then "and", then the ten: twenty-five is <span class="ar" dir="rtl">خمسة وعشرون</span> (khamsa wa ishroon — literally "five and twenty").</p>
+    <h2>Hundreds and thousands</h2>
+    <p>For bigger numbers: <span class="ar" dir="rtl">مئة</span> (mi'a — one hundred), <span class="ar" dir="rtl">مئتان</span> (mi'atan — two hundred) and <span class="ar" dir="rtl">ألف</span> (alf — one thousand). You may know "alf" already from "Alf Layla wa Layla" — the Thousand and One Nights. Zero is <span class="ar" dir="rtl">صفر</span> (sifr) — the word that travelled into English as "cipher" and "zero" itself comes from the same root.</p>
+    <h2>Two sets of digits</h2>
+    <p>Here is the surprise: the digits 0 1 2 3 that the world calls "Arabic numerals" are indeed the ones used in Morocco, and across much of the region for prices and phones. But Egypt, Saudi Arabia and the Gulf often write numbers with the older Arabic-Indic digits: <span class="ar" dir="rtl">٠١٢٣٤٥٦٧٨٩</span> (0–9). So <span class="ar" dir="rtl">٢٥</span> is twenty-five in Cairo. Both systems are easy to learn, and recognising them will save you real confusion at market stalls and on licence plates.</p>
+    <h2>Numbers in daily life</h2>
+    <p>A few ready-made lines cover most situations. Asking a price: <span class="ar" dir="rtl">كم الثمن؟</span> (kam ath-thaman? — how much is it?). For quantities, put the number after the thing counted in careful Arabic, though in shops a number plus the item will always be understood: <span class="ar" dir="rtl">شايان</span> (shaayan — two teas) uses the special "dual" form Arabic has for exactly two of something.</p>
+    <p>Practise by counting real things this week — steps, stops, cups of coffee — and test any number sentence in the <a href="#home">translator</a> before you use it. Numbers plus the phrases in our <a href="#guide-shopping">shopping guide</a> make market day much easier.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-words">Everyday Vocabulary</a> &middot; <a href="#guide-time">Days, Months &amp; Time</a> &middot; <a href="#guide-family">Family Words</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-words"><article class="guide"><span class="tag">Vocabulary</span><h1>Everyday Arabic Vocabulary: 60 Words You Will Use Daily</h1>
+    <p>A language is built one useful word at a time. These sixty words were chosen because they come up constantly in Arab homes, streets and shops. Learn ten a day and within a week you will be recognising Arabic everywhere — on signboards, in conversations and in film songs. Every word is given in Arabic script with its pronunciation in English letters.</p>
+    <h2>Home and family</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">بيت</span> (bayt) — house, home</li>
+      <li><span class="ar" dir="rtl">عائلة</span> (a'ila) — family</li>
+      <li><span class="ar" dir="rtl">أب</span> (ab) — father</li>
+      <li><span class="ar" dir="rtl">أم</span> (umm) — mother</li>
+      <li><span class="ar" dir="rtl">طفل</span> (tifl) — child</li>
+      <li><span class="ar" dir="rtl">صديق</span> (sadeeq) — friend</li>
+      <li><span class="ar" dir="rtl">كتاب</span> (kitaab) — book</li>
+      <li><span class="ar" dir="rtl">مال</span> (maal) — money</li>
+      <li><span class="ar" dir="rtl">باب</span> (baab) — door</li>
+      <li><span class="ar" dir="rtl">مفتاح</span> (miftaah) — key</li>
+    </ul>
+    <h2>Food and drink</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">ماء</span> (ma') — water</li>
+      <li><span class="ar" dir="rtl">طعام</span> (ta'am) — food</li>
+      <li><span class="ar" dir="rtl">أرز</span> (aruzz) — rice</li>
+      <li><span class="ar" dir="rtl">خبز</span> (khubz) — bread</li>
+      <li><span class="ar" dir="rtl">شاي</span> (shay) — tea</li>
+      <li><span class="ar" dir="rtl">حليب</span> (haleeb) — milk</li>
+      <li><span class="ar" dir="rtl">بيض</span> (bayd) — eggs</li>
+      <li><span class="ar" dir="rtl">سمك</span> (samak) — fish</li>
+      <li><span class="ar" dir="rtl">فاكهة</span> (faakiha) — fruit</li>
+      <li><span class="ar" dir="rtl">ملح</span> (milh) — salt</li>
+    </ul>
+    <h2>Nature and weather</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">شمس</span> (shams) — sun</li>
+      <li><span class="ar" dir="rtl">قمر</span> (qamar) — moon</li>
+      <li><span class="ar" dir="rtl">مطر</span> (matar) — rain</li>
+      <li><span class="ar" dir="rtl">بحر</span> (bahr) — sea</li>
+      <li><span class="ar" dir="rtl">نهر</span> (nahr) — river</li>
+      <li><span class="ar" dir="rtl">شجرة</span> (shajara) — tree</li>
+      <li><span class="ar" dir="rtl">زهرة</span> (zahra) — flower</li>
+      <li><span class="ar" dir="rtl">كلب</span> (kalb) — dog</li>
+      <li><span class="ar" dir="rtl">قطة</span> (qitta) — cat</li>
+      <li><span class="ar" dir="rtl">طائر</span> (taa'ir) — bird</li>
+    </ul>
+    <h2>People and places</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">رجل</span> (rajul) — man</li>
+      <li><span class="ar" dir="rtl">امرأة</span> (imra'a) — woman</li>
+      <li><span class="ar" dir="rtl">معلم</span> (mu'allim) — teacher</li>
+      <li><span class="ar" dir="rtl">طبيب</span> (tabeeb) — doctor</li>
+      <li><span class="ar" dir="rtl">متجر</span> (matjar) — shop</li>
+      <li><span class="ar" dir="rtl">سوق</span> (sooq) — market, souk</li>
+      <li><span class="ar" dir="rtl">مدرسة</span> (madrasa) — school</li>
+      <li><span class="ar" dir="rtl">مستشفى</span> (mustashfa) — hospital</li>
+      <li><span class="ar" dir="rtl">شارع</span> (shaari') — street</li>
+      <li><span class="ar" dir="rtl">قطار</span> (qitaar) — train</li>
+    </ul>
+    <h2>Describing words</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">كبير</span> (kabeer) — big</li>
+      <li><span class="ar" dir="rtl">صغير</span> (sagheer) — small</li>
+      <li><span class="ar" dir="rtl">جيد</span> (jayyid) — good</li>
+      <li><span class="ar" dir="rtl">جديد</span> (jadeed) — new</li>
+      <li><span class="ar" dir="rtl">قديم</span> (qadeem) — old</li>
+      <li><span class="ar" dir="rtl">ساخن</span> (saakhin) — hot</li>
+      <li><span class="ar" dir="rtl">بارد</span> (baarid) — cold</li>
+      <li><span class="ar" dir="rtl">سعيد</span> (saeed) — happy</li>
+      <li><span class="ar" dir="rtl">بسرعة</span> (bi-sur'a) — quickly</li>
+      <li><span class="ar" dir="rtl">ببطء</span> (bi-but') — slowly</li>
+    </ul>
+    <h2>Small words that do big jobs</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">نعم</span> (na'am) — yes</li>
+      <li><span class="ar" dir="rtl">لا</span> (la) — no, not</li>
+      <li><span class="ar" dir="rtl">من فضلك</span> (min fadlik) — please</li>
+      <li><span class="ar" dir="rtl">شكرا</span> (shukran) — thank you</li>
+      <li><span class="ar" dir="rtl">عفوا</span> (afwan) — excuse me, you're welcome</li>
+      <li><span class="ar" dir="rtl">هنا</span> (huna) — here</li>
+      <li><span class="ar" dir="rtl">هناك</span> (hunaak) — there</li>
+      <li><span class="ar" dir="rtl">اليوم</span> (al-yawm) — today</li>
+      <li><span class="ar" dir="rtl">غدا</span> (ghadan) — tomorrow</li>
+      <li><span class="ar" dir="rtl">الآن</span> (al-aan) — now</li>
+    </ul>
+    <h2>How to use this list</h2>
+    <p>Do not try to memorise all sixty in one sitting. Take one group a day, say each word aloud as you read it, and then build one small sentence around it — <span class="ar" dir="rtl">الماء بارد</span> (al-maa' baarid — the water is cold) teaches you two words at once and shows you how Arabic simply places words side by side without a word for "is". Stick the words on sticky notes around your home — ma' on the tap, baab on the door, kitaab on a book — and your kitchen becomes a classroom. When a word will not stick, look at its root: shajara (tree), qamar (moon) and their cousins reappear inside dozens of other words, so every word you learn makes the next one easier.</p>
+    <p>Keep this list beside our <a href="#phrases">phrasebook</a>, and drop any word into the <a href="#home">translator</a> to see it inside a full sentence. Sixty words will not make you fluent — but they will make the Arab world feel a lot less foreign.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-time">Days, Months &amp; Time</a> &middot; <a href="#guide-family">Family Words</a> &middot; <a href="#guide-greetings">Greetings &amp; Goodbyes</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-time"><article class="guide"><span class="tag">Time &amp; Dates</span><h1>Days, Months and Telling the Time in Arabic</h1>
+    <p>"When?" is one of the most practical questions in any language. Whether you are catching a train, fixing a meeting or planning around Ramadan, you need days, dates and clock times. Arabic keeps this manageable: a small set of words covers almost every plan you will make.</p>
+    <h2>The seven days</h2>
+    <p>The week in most Arab countries runs: <span class="ar" dir="rtl">الاثنين</span> (al-ithnayn — Monday), <span class="ar" dir="rtl">الثلاثاء</span> (ath-thulatha — Tuesday), <span class="ar" dir="rtl">الأربعاء</span> (al-arbi'a — Wednesday), <span class="ar" dir="rtl">الخميس</span> (al-khamees — Thursday), <span class="ar" dir="rtl">الجمعة</span> (al-jum'a — Friday), <span class="ar" dir="rtl">السبت</span> (as-sabt — Saturday) and <span class="ar" dir="rtl">الأحد</span> (al-ahad — Sunday). Several names are built from numbers — Wednesday is literally "the fourth" — and Friday, al-jum'a, is the weekly day of prayer and rest across the region.</p>
+    <h2>Today, tomorrow and yesterday</h2>
+    <p>Three words handle most planning: <span class="ar" dir="rtl">اليوم</span> (al-yawm — today), <span class="ar" dir="rtl">غدا</span> (ghadan — tomorrow) and <span class="ar" dir="rtl">أمس</span> (ams — yesterday). "See you tomorrow" is <span class="ar" dir="rtl">أراك غدا</span> (araka ghadan) — a phrase worth using daily.</p>
+    <h2>Parts of the day</h2>
+    <p>The day divides into <span class="ar" dir="rtl">صباح</span> (sabah — morning), <span class="ar" dir="rtl">ظهر</span> (dhuhr — midday), <span class="ar" dir="rtl">مساء</span> (masa — evening) and <span class="ar" dir="rtl">ليل</span> (layl — night). Greetings follow the same pattern — <span class="ar" dir="rtl">صباح الخير</span> (sabah al-khayr) for good morning, answered charmingly with <span class="ar" dir="rtl">صباح النور</span> (sabah an-noor — "morning of light").</p>
+    <h2>Months of the year — two calendars</h2>
+    <p>For everyday dates, the Arab world uses the familiar Gregorian months, often with Levantine names like <span class="ar" dir="rtl">كانون الثاني</span> (kanoon ath-thani — January) and <span class="ar" dir="rtl">آب</span> (aab — August) in the east, or European-derived names in the west. Alongside it runs the Islamic Hijri calendar, whose months govern religious life: <span class="ar" dir="rtl">محرم</span> (Muharram) opens the year, <span class="ar" dir="rtl">رمضان</span> (Ramadan) is the fasting month, <span class="ar" dir="rtl">شوال</span> (Shawwal) brings Eid al-Fitr, and <span class="ar" dir="rtl">ذو الحجة</span> (Dhu al-Hijja) is the month of Hajj and Eid al-Adha. Because the Hijri year is about eleven days shorter, Ramadan slowly travels through all the seasons.</p>
+    <h2>Asking and telling the time</h2>
+    <p>Ask <span class="ar" dir="rtl">كم الساعة؟</span> (kam as-saa'a? — what time is it?). Answers use <span class="ar" dir="rtl">الساعة</span> (as-saa'a — "the hour is"): <span class="ar" dir="rtl">الساعة العاشرة</span> (as-saa'a al-aashira — ten o'clock). An hour is <span class="ar" dir="rtl">ساعة</span> (saa'a) and a minute is <span class="ar" dir="rtl">دقيقة</span> (daqeeqa). "Half past" is <span class="ar" dir="rtl">والنصف</span> (wan-nisf).</p>
+    <h2>Seasons and useful time phrases</h2>
+    <p>The four seasons are <span class="ar" dir="rtl">الربيع</span> (ar-rabee' — spring), <span class="ar" dir="rtl">الصيف</span> (as-sayf — summer), <span class="ar" dir="rtl">الخريف</span> (al-khareef — autumn) and <span class="ar" dir="rtl">الشتاء</span> (ash-shitaa' — winter). A handful of phrases rounds out your planning vocabulary: <span class="ar" dir="rtl">الأسبوع القادم</span> (al-usboo' al-qaadim — next week), <span class="ar" dir="rtl">الشهر الماضي</span> (ash-shahr al-maadi — last month), <span class="ar" dir="rtl">في الصباح</span> (fis-sabah — in the morning), <span class="ar" dir="rtl">بعد الظهر</span> (ba'd adh-dhuhr — in the afternoon) and <span class="ar" dir="rtl">قريبا</span> (qareeban — soon). With these and the days above, you can fix appointments, read event posters and follow the small print of any itinerary in the region.</p>
+    <p>Combine these with the <a href="#guide-numbers">numbers guide</a> and you can read any timetable in the region. For longer sentences, draft them in the <a href="#home">translator</a> and check the word order before you travel.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-family">Family Words</a> &middot; <a href="#guide-greetings">Greetings &amp; Goodbyes</a> &middot; <a href="#guide-shopping">Shopping &amp; Bargaining</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-family"><article class="guide"><span class="tag">Family</span><h1>Family Words in Arabic: Relatives and Relationships</h1>
+    <p>Family sits at the centre of life across the Arab world, and Arabic has a precise word for almost every relationship — including a distinction English never makes between your father's brother and your mother's brother. Learning these words does more than build vocabulary: it explains the warmth of Arab introductions, where asking after someone's family is not small talk but genuine courtesy.</p>
+    <h2>Parents and grandparents</h2>
+    <p>Father is <span class="ar" dir="rtl">أب</span> (ab) — in everyday speech often <span class="ar" dir="rtl">بابا</span> (baba) — and mother is <span class="ar" dir="rtl">أم</span> (umm), affectionately <span class="ar" dir="rtl">ماما</span> (mama). Grandfather is <span class="ar" dir="rtl">جد</span> (jadd) and grandmother is <span class="ar" dir="rtl">جدة</span> (jadda). The general word for family itself is <span class="ar" dir="rtl">عائلة</span> (a'ila), and the wider clan or extended family is <span class="ar" dir="rtl">أهل</span> (ahl) — as in "Ahlan wa sahlan", where ahlan literally welcomes you "to family".</p>
+    <h2>Brothers and sisters</h2>
+    <p>A brother is <span class="ar" dir="rtl">أخ</span> (akh) and a sister is <span class="ar" dir="rtl">أخت</span> (ukht). These words stretch far beyond the household: men address friends and even strangers as "akhi" (my brother) and women as "ukhti" (my sister), which is why you will hear them constantly in shops and streets. Elder and younger are added when needed — <span class="ar" dir="rtl">الأخ الأكبر</span> (al-akh al-akbar — the elder brother).</p>
+    <h2>Uncles and aunts</h2>
+    <p>Here Arabic is more detailed than English. Your father's brother is <span class="ar" dir="rtl">عم</span> (amm) and his wife or your father's sister is <span class="ar" dir="rtl">عمة</span> (amma). Your mother's brother is <span class="ar" dir="rtl">خال</span> (khaal) and your mother's sister is <span class="ar" dir="rtl">خالة</span> (khaala). Children use these titles for respected older neighbours too — a kind "amm" to an older man is never wrong.</p>
+    <h2>Children and the next generation</h2>
+    <p>A son is <span class="ar" dir="rtl">ابن</span> (ibn) and a daughter is <span class="ar" dir="rtl">ابنة</span> (ibna); a child is <span class="ar" dir="rtl">طفل</span> (tifl) and children are <span class="ar" dir="rtl">أطفال</span> (atfaal). A husband is <span class="ar" dir="rtl">زوج</span> (zawj) and a wife is <span class="ar" dir="rtl">زوجة</span> (zawja). Grandchildren are <span class="ar" dir="rtl">أحفاد</span> (ahfaad).</p>
+    <h2>Cousins, in-laws and family occasions</h2>
+    <p>Arabic names cousins by their exact branch: your paternal uncle's son is <span class="ar" dir="rtl">ابن العم</span> (ibn al-amm) and your maternal aunt's daughter is <span class="ar" dir="rtl">بنت الخالة</span> (bint al-khaala) — a precision that reflects how close these relationships are in daily life. In-laws have their own words too: a father-in-law is <span class="ar" dir="rtl">حمو</span> (hamu) and a mother-in-law is <span class="ar" dir="rtl">حماة</span> (hamaa). You will hear family vocabulary at full volume during <span class="ar" dir="rtl">رمضان</span> (Ramadan) iftars and Eid visits, when three or four generations gather around one table — our <a href="#guide-festivals">festivals guide</a> explains those occasions and the greetings that go with them.</p>
+    <h2>Talking about your family</h2>
+    <p>Two sentence frames cover most introductions. "This is my mother" is <span class="ar" dir="rtl">هذه أمي</span> (haadhihi ummi). "I have two brothers" is <span class="ar" dir="rtl">لدي أخوان</span> (ladayya akhawaan). Notice how "my" is a small ending stuck onto the word — umm becomes ummi, akh becomes akhi; both return in our <a href="#guide-introduce">self-introduction guide</a>.</p>
+    <p>Family questions are friendly conversation in the Arab world, not prying — asking about someone's <span class="ar" dir="rtl">عائلة</span> shows you care. Practise your answers in the <a href="#home">translator</a>, and you will be ready for the warmest small talk in the region.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-greetings">Greetings &amp; Goodbyes</a> &middot; <a href="#guide-shopping">Shopping &amp; Bargaining</a> &middot; <a href="#guide-emergency">Emergency &amp; Health</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-greetings"><article class="guide"><span class="tag">Speaking</span><h1>Arabic Greetings and Goodbyes for Every Occasion</h1>
+    <p>Every conversation in the Arab world begins and ends with warmth, and the words are easy to learn. Master this small set of greetings and goodbyes and you will never be stuck at the start or the end of a chat again — in a home, a shop, an office or on the phone.</p>
+    <h2>The greeting of peace</h2>
+    <p>The most important greeting in Arabic is <span class="ar" dir="rtl">السلام عليكم</span> (as-salamu alaykum — peace be upon you). It is used at any hour, in any country, in formal and friendly settings alike. The reply is just as fixed: <span class="ar" dir="rtl">وعليكم السلام</span> (wa alaykum as-salam — and upon you be peace), sometimes extended with <span class="ar" dir="rtl">ورحمة الله وبركاته</span> (wa rahmatullah wa barakatuh — and God's mercy and blessings). Offer the greeting first when you enter a room or a shop; it is the done thing, and it is always appreciated.</p>
+    <h2>Everyday hellos</h2>
+    <p>Alongside it, <span class="ar" dir="rtl">مرحبا</span> (marhaban — hello) is the neutral, all-purpose greeting, and <span class="ar" dir="rtl">أهلا وسهلا</span> (ahlan wa sahlan) is the warm welcome — literally "you have come to family and to ease". You will hear ahlan on its own constantly, as hello, welcome and "make yourself at home" in one word.</p>
+    <h2>Greetings by time of day</h2>
+    <p>Arabic has beautiful time-specific greetings that come in call-and-response pairs: <span class="ar" dir="rtl">صباح الخير</span> (sabah al-khayr — good morning, "morning of goodness") is answered <span class="ar" dir="rtl">صباح النور</span> (sabah an-noor — "morning of light"), and <span class="ar" dir="rtl">مساء الخير</span> (masa al-khayr — good evening) is answered <span class="ar" dir="rtl">مساء النور</span> (masa an-noor). Good night is <span class="ar" dir="rtl">تصبح على خير</span> (tusbih ala khayr — "may you wake to goodness").</p>
+    <h2>Asking how someone is</h2>
+    <p>The standard question is <span class="ar" dir="rtl">كيف حالك؟</span> (kayfa haluk? — how are you?). The usual answer is <span class="ar" dir="rtl">أنا بخير، الحمد لله</span> (ana bikhayr, alhamdulillah — I am fine, praise be to God) — the alhamdulillah appears in replies everywhere, in good news and bad. Among friends you will also hear <span class="ar" dir="rtl">ما أخبارك؟</span> (ma akhbaruk? — what's your news?).</p>
+    <h2>Welcome and congratulations</h2>
+    <p>Congratulate with <span class="ar" dir="rtl">مبروك</span> (mabrook — congratulations, blessed), wish a birthday with <span class="ar" dir="rtl">عيد ميلاد سعيد</span> (eid milad saeed), and thank someone warmly with <span class="ar" dir="rtl">شكرا جزيلا</span> (shukran jazeelan — thank you very much). The reply to shukran is <span class="ar" dir="rtl">عفوا</span> (afwan — you're welcome). Festival wishes get their own guide — see our <a href="#guide-festivals">festivals article</a>.</p>
+    <h2>Saying goodbye — Arab style</h2>
+    <p>The classic parting is <span class="ar" dir="rtl">مع السلامة</span> (ma'a as-salama — "go with safety"), said by the person staying; the person leaving often says <span class="ar" dir="rtl">في أمان الله</span> (fi aman illah — "in God's protection") or simply <span class="ar" dir="rtl">إلى اللقاء</span> (ila al-liqa — until we meet). Goodbyes in Arab homes can take a while — at the door, at the gate, at the car — and that is exactly as it should be.</p>
+    <p>Try one greeting today — at a shop, with a neighbour, anywhere — and build the habit with the <a href="#phrases">phrasebook</a>. For meeting someone properly for the first time, continue to our <a href="#guide-introduce">self-introduction guide</a>.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-shopping">Shopping &amp; Bargaining</a> &middot; <a href="#guide-emergency">Emergency &amp; Health</a> &middot; <a href="#guide-questions">Questions &amp; Pronouns</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-shopping"><article class="guide"><span class="tag">Shopping</span><h1>Shopping and Bargaining in Arabic: Souk Phrases That Work</h1>
+    <p>The old markets of the Arab world — the souks of Cairo, Damascus, Marrakech and Dubai's Deira — run on friendly talk. Prices in small shops and stalls are often a conversation, not a label, and bargaining done with humour is a social ritual both sides enjoy. These phrases will help you shop with confidence, from the first ahlan to the final shukran.</p>
+    <h2>Entering and looking around</h2>
+    <p>Start with <span class="ar" dir="rtl">السلام عليكم</span> (as-salamu alaykum) — in a souk, the greeting comes before business. If you are just browsing, say <span class="ar" dir="rtl">أنا أتفرج فقط</span> (ana atafarraj faqat — I am just looking). To ask for something specific: <span class="ar" dir="rtl">أرني هذا من فضلك</span> (arini haadha min fadlik — please show me this), or <span class="ar" dir="rtl">هل لديك لون آخر؟</span> (hal ladayka lawn akhar? — do you have another colour?). The word for shop is <span class="ar" dir="rtl">متجر</span> (matjar) and for market, <span class="ar" dir="rtl">سوق</span> (sooq).</p>
+    <h2>Asking the price</h2>
+    <p>The one question you will use everywhere: <span class="ar" dir="rtl">كم الثمن؟</span> (kam ath-thaman? — how much is this?). For things sold by weight, ask <span class="ar" dir="rtl">بكم الكيلو؟</span> (bikam al-keelu? — how much per kilo?). Answers come fast, so learn the <a href="#guide-numbers">numbers</a> first. If you did not catch the reply, <span class="ar" dir="rtl">أعد من فضلك</span> (a'id min fadlik — please repeat) buys you a slower second hearing.</p>
+    <h2>Sizes, colours and trying things</h2>
+    <p>For clothes and footwear: <span class="ar" dir="rtl">هل لديك مقاس أكبر؟</span> (hal ladayka maqaas akbar? — do you have a bigger size?) and <span class="ar" dir="rtl">مقاس أصغر</span> (maqaas asghar — a smaller size). Common colours: <span class="ar" dir="rtl">أحمر</span> (ahmar — red), <span class="ar" dir="rtl">أزرق</span> (azraq — blue), <span class="ar" dir="rtl">أخضر</span> (akhdar — green), <span class="ar" dir="rtl">أسود</span> (aswad — black), <span class="ar" dir="rtl">أبيض</span> (abyad — white) and <span class="ar" dir="rtl">أصفر</span> (asfar — yellow).</p>
+    <h2>Bargaining, politely</h2>
+    <p>In souks (less so in malls and fixed-price shops), gentle bargaining is expected. Open with <span class="ar" dir="rtl">هذا غال جدا</span> (haadha ghaalin jiddan — that is very expensive), then offer: <span class="ar" dir="rtl">هل يمكنك تخفيض الثمن؟</span> (hal yumkinuk takhfeed ath-thaman? — can you lower the price?). Tea may appear; accept it — the negotiation is going well. Accept a deal with <span class="ar" dir="rtl">اتفقنا</span> (ittafaqna — agreed!), or decline kindly with <span class="ar" dir="rtl">لا، شكرا</span> (la, shukran — no, thank you) and a smile.</p>
+    <h2>Paying and finishing</h2>
+    <p>Ask for the bill with <span class="ar" dir="rtl">الفاتورة من فضلك</span> (al-fatura min fadlik). Cash is <span class="ar" dir="rtl">نقدا</span> (naqdan); most city shops take cards, while small souk stalls often prefer cash. When you buy something, the seller may say <span class="ar" dir="rtl">مبروك</span> (mabrook — congratulations on your purchase) — the correct, happy reply is <span class="ar" dir="rtl">الله يبارك فيك</span> (allah yubaarik feek — may God bless you).</p>
+    <p>Keep this guide open on market day alongside the <a href="#phrases">phrasebook</a>, and run any tricky sentence through the <a href="#home">translator</a> before you set out. Bargaining in Arabic, even imperfect Arabic, changes the whole shopping experience.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-emergency">Emergency &amp; Health</a> &middot; <a href="#guide-questions">Questions &amp; Pronouns</a> &middot; <a href="#guide-festivals">Ramadan, Eid &amp; Festivals</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-emergency"><article class="guide"><span class="tag">Emergency</span><h1>Emergency and Health Phrases in Arabic</h1>
+    <p>Nobody plans an emergency, but a few memorised lines can make a frightening moment manageable. The Arab world has good hospitals in every major city and helpful people everywhere; these phrases make sure you can ask for the right help quickly, for yourself or for someone else. Save this page offline before you travel.</p>
+    <h2>Calling for help</h2>
+    <p>The word that cuts through noise is <span class="ar" dir="rtl">النجدة!</span> (an-najda! — help!). Add <span class="ar" dir="rtl">خطر!</span> (khatar! — danger!) if there has been a crash or a fall. To stop someone urgently: <span class="ar" dir="rtl">توقف!</span> (tawaqqaf! — stop!). Emergency numbers vary by country — 112 works on mobile phones in many of them, Egypt uses 122 for police and 123 for ambulance, the UAE uses 999, and Saudi Arabia uses 911 in major regions — so save your destination's numbers in your phone alongside these words.</p>
+    <h2>Getting medical help</h2>
+    <p>The essentials: <span class="ar" dir="rtl">أين المستشفى؟</span> (ayna al-mustashfa? — where is the hospital?), <span class="ar" dir="rtl">اتصل بطبيب</span> (ittasel bi-tabeeb — call a doctor), and <span class="ar" dir="rtl">اتصل بالإسعاف</span> (ittasel bil-is'aaf — call an ambulance). The word for a doctor is <span class="ar" dir="rtl">طبيب</span> (tabeeb) and for a hospital, <span class="ar" dir="rtl">مستشفى</span> (mustashfa).</p>
+    <h2>Describing what is wrong</h2>
+    <p>Start with <span class="ar" dir="rtl">أنا لست بخير</span> (ana lastu bikhayr — I am not well). The word <span class="ar" dir="rtl">ألم</span> (alam — pain) combines with body parts: <span class="ar" dir="rtl">ألم في الرأس</span> (alam fir-ra's — headache), <span class="ar" dir="rtl">ألم في البطن</span> (alam fil-batn — stomach ache), <span class="ar" dir="rtl">ألم في الأسنان</span> (alam fil-asnaan — toothache). Other common words: <span class="ar" dir="rtl">حمى</span> (humma — fever), <span class="ar" dir="rtl">سعال</span> (su'aal — cough), <span class="ar" dir="rtl">دم</span> (dam — blood) and <span class="ar" dir="rtl">حساسية</span> (hasaasiyya — allergy). "It hurts here" is <span class="ar" dir="rtl">يؤلمني هنا</span> (yu'limuni huna) — point as you say it.</p>
+    <h2>At the pharmacy</h2>
+    <p>Medicine is <span class="ar" dir="rtl">دواء</span> (dawaa), and a pharmacy is <span class="ar" dir="rtl">صيدلية</span> (saydaliyya) — often marked with a green cross and open late. Useful lines: <span class="ar" dir="rtl">هل لديك هذا الدواء؟</span> (hal ladayka haadha ad-dawaa? — do you have this medicine?) and <span class="ar" dir="rtl">كم مرة في اليوم يجب أن آخذه؟</span> (kam marra fil-yawm yajib an aakhudhahu? — how many times a day should I take it?). Pharmacists across the region are highly trained and often speak English.</p>
+    <h2>Police and personal safety</h2>
+    <p>For theft or trouble: <span class="ar" dir="rtl">اتصل بالشرطة</span> (ittasel bish-shurta — call the police). "I have lost my bag" is <span class="ar" dir="rtl">لقد فقدت حقيبتي</span> (laqad faqadtu haqeebati), and "I don't understand" — <span class="ar" dir="rtl">أنا لا أفهم</span> (ana la afham) — is the honest phrase that slows any difficult conversation down to a manageable speed.</p>
+    <p>We hope you never need this page. Keep it with our <a href="#guide-travel">travel phrases</a>, and use the <a href="#home">translator</a> for anything more detailed — then show the Arabic text on your screen to the person helping you.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-questions">Questions &amp; Pronouns</a> &middot; <a href="#guide-festivals">Ramadan, Eid &amp; Festivals</a> &middot; <a href="#guide-introduce">Introduce Yourself</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-questions"><article class="guide"><span class="tag">Grammar Basics</span><h1>Arabic Question Words and Pronouns: Ask Anything</h1>
+    <p>Questions are the engine of conversation. Once you can ask what, where, when and how much in Arabic, every street, shop and café becomes a classroom. This guide collects the complete question toolkit — the question words, the yes-or-no question trick, and the personal pronouns you need to aim your questions at the right person.</p>
+    <h2>The question words</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">ما؟ / ماذا؟</span> (ma? / maadha?) — what?</li>
+      <li><span class="ar" dir="rtl">من؟</span> (man?) — who?</li>
+      <li><span class="ar" dir="rtl">أين؟</span> (ayna?) — where?</li>
+      <li><span class="ar" dir="rtl">متى؟</span> (mata?) — when?</li>
+      <li><span class="ar" dir="rtl">لماذا؟</span> (limadha?) — why?</li>
+      <li><span class="ar" dir="rtl">كيف؟</span> (kayfa?) — how?</li>
+      <li><span class="ar" dir="rtl">كم؟</span> (kam?) — how much? how many?</li>
+      <li><span class="ar" dir="rtl">أي؟</span> (ayy?) — which?</li>
+      <li><span class="ar" dir="rtl">هل؟</span> (hal?) — the yes-or-no question word</li>
+    </ul>
+    <h2>The magic word: hal</h2>
+    <p>Arabic has a gift for learners: put <span class="ar" dir="rtl">هل</span> (hal) at the start of any statement and it becomes a yes-or-no question. <span class="ar" dir="rtl">هذا قريب</span> (haadha qareeb — this is near) becomes <span class="ar" dir="rtl">هل هذا قريب؟</span> (hal haadha qareeb? — is this near?). One small word, endless questions. In everyday speech, rising intonation alone often does the same job.</p>
+    <h2>The personal pronouns</h2>
+    <ul>
+      <li><span class="ar" dir="rtl">أنا</span> (ana) — I</li>
+      <li><span class="ar" dir="rtl">أنت</span> (anta) — you (to a man)</li>
+      <li><span class="ar" dir="rtl">أنتِ</span> (anti) — you (to a woman)</li>
+      <li><span class="ar" dir="rtl">هو</span> (huwa) — he</li>
+      <li><span class="ar" dir="rtl">هي</span> (hiya) — she</li>
+      <li><span class="ar" dir="rtl">نحن</span> (nahn) — we</li>
+      <li><span class="ar" dir="rtl">أنتم</span> (antum) — you (plural)</li>
+      <li><span class="ar" dir="rtl">هم</span> (hum) — they</li>
+    </ul>
+    <p>Notice that Arabic distinguishes "you" by gender — anta to a man, anti to a woman — and often skips the pronoun entirely, because the verb ending already says who is acting. You will also meet these pronouns as endings glued to words: kitab (book) becomes <span class="ar" dir="rtl">كتابي</span> (kitaabi — my book) and <span class="ar" dir="rtl">كتابك</span> (kitaabuk — your book).</p>
+    <h2>Building your first real questions</h2>
+    <p>Combine and go: <span class="ar" dir="rtl">ما هذا؟</span> (ma haadha? — what is this?), <span class="ar" dir="rtl">أين السوق؟</span> (ayna as-sooq? — where is the market?), <span class="ar" dir="rtl">متى يفتح المتجر؟</span> (mata yaftah al-matjar? — when does the shop open?), <span class="ar" dir="rtl">كيف أذهب إلى المطار؟</span> (kayfa adhhab ila al-mataar? — how do I get to the airport?) and <span class="ar" dir="rtl">كم الساعة؟</span> (kam as-saa'a? — what time is it?). Each follows the same pattern: question word first, then the rest of the sentence.</p>
+    <h2>Polite ways to open a question</h2>
+    <p>A question lands better with a softener in front of it. Begin with <span class="ar" dir="rtl">من فضلك</span> (min fadlik — please) or the gentle attention-getter <span class="ar" dir="rtl">عفوا</span> (afwan — excuse me) before you ask a stranger anything: <span class="ar" dir="rtl">عفوا، أين المحطة؟</span> (afwan, ayna al-mahatta? — excuse me, where is the station?). To check whether someone speaks English, ask <span class="ar" dir="rtl">هل تتكلم الإنجليزية؟</span> (hal tatakallam al-ingleeziyya? — do you speak English?) — a hal question, and one that will rescue you regularly while your Arabic grows. And when the answer comes too fast, the honest rescue line is <span class="ar" dir="rtl">تكلم ببطء من فضلك</span> (takallam bi-but' min fadlik — please speak slowly).</p>
+    <p>Practise by turning statements from the <a href="#phrases">phrasebook</a> into questions with hal, and test longer questions in the <a href="#home">translator</a>. Questions plus the <a href="#guide-greetings">greetings</a> are the two halves of every friendly conversation in Arabic.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-festivals">Ramadan, Eid &amp; Festivals</a> &middot; <a href="#guide-introduce">Introduce Yourself</a> &middot; <a href="#guide-food">Arabic for Food Lovers</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-festivals"><article class="guide"><span class="tag">Culture</span><h1>Ramadan, Eid and Arabic Festivals: Words and Wishes</h1>
+    <p>Festivals shape the year across the Arab world, and each one comes with its own vocabulary and its own greetings. Even if you share none of the faith behind them, knowing the words — and sending the right wish at the right time — is one of the warmest ways to connect with Arab friends, colleagues and hosts.</p>
+    <h2>Ramadan, the holy month</h2>
+    <p><span class="ar" dir="rtl">رمضان</span> (Ramadan) is the ninth month of the Islamic calendar, when Muslims fast from dawn to sunset. Days grow quiet and reflective; nights come alive. The fast is broken at sunset with <span class="ar" dir="rtl">إفطار</span> (iftaar) — often starting with dates and water, then a feast with family — and a pre-dawn meal called <span class="ar" dir="rtl">سحور</span> (suhoor) starts the next fast. The greeting of the month is <span class="ar" dir="rtl">رمضان كريم</span> (ramadan kareem — "generous Ramadan"), answered with <span class="ar" dir="rtl">الله أكرم</span> (allahu akram — "God is more generous"). Visiting during Ramadan? Avoid eating in front of fasting people in public, accept iftar invitations with delight, and expect the best food of the year.</p>
+    <h2>Eid al-Fitr, the festival of breaking the fast</h2>
+    <p>When Ramadan ends, <span class="ar" dir="rtl">عيد الفطر</span> (Eid al-Fitr) begins: three days of new clothes, family visits, sweets like kahk and ma'amoul, and gifts of money (eidiyya) for children. The universal greeting is <span class="ar" dir="rtl">عيد مبارك</span> (eid mubarak — "blessed Eid"), and you will hear it a hundred times a day. Another classic wish is <span class="ar" dir="rtl">كل عام وأنتم بخير</span> (kull aam wa antum bikhayr — "may you be well every year"), which works for both Eids and the New Year too.</p>
+    <h2>Eid al-Adha, the festival of sacrifice</h2>
+    <p>About two months later comes <span class="ar" dir="rtl">عيد الأضحى</span> (Eid al-Adha), the greater Eid, coinciding with the Hajj pilgrimage to Makkah. Families share meat with neighbours and the poor, and the same greetings — eid mubarak above all — fill the streets. If a friend is performing Hajj, wish them <span class="ar" dir="rtl">حج مبرور</span> (hajj mabroor — an accepted pilgrimage) when they return.</p>
+    <h2>Other dates in the year</h2>
+    <p><span class="ar" dir="rtl">المولد النبوي</span> (al-Mawlid an-Nabawi) marks the Prophet Muhammad's birthday, celebrated with processions and sweets in many countries. The Islamic New Year begins with <span class="ar" dir="rtl">محرم</span> (Muharram). In Egypt, <span class="ar" dir="rtl">شم النسيم</span> (Sham an-Naseem) — a spring festival older than any current religion — sends everyone to parks with coloured eggs and salted fish the day after Coptic Easter. National days, from Saudi National Day on 23 September to UAE National Day on 2 December, add fireworks and flags to the calendar.</p>
+    <h2>Sending the wishes</h2>
+    <p>Keep it simple and sincere. For Ramadan: <span class="ar" dir="rtl">رمضان كريم</span> (ramadan kareem). For either Eid: <span class="ar" dir="rtl">عيد مبارك</span> (eid mubarak) or <span class="ar" dir="rtl">عيد سعيد</span> (eid saeed — happy Eid). For almost any celebration: <span class="ar" dir="rtl">كل عام وأنتم بخير</span> (kull aam wa antum bikhayr). Type your own message into the <a href="#home">translator</a> to build a longer, personal greeting around these anchors.</p>
+    <p>Festivals are when the Arab world shows its most generous face. Learn the wishes, accept the sweets, and read our <a href="#guide-greetings">greetings guide</a> for the everyday courtesies that carry you the rest of the year.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-introduce">Introduce Yourself</a> &middot; <a href="#guide-food">Arabic for Food Lovers</a> &middot; <a href="#guide-sentences">How Arabic Sentences Work</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-introduce"><article class="guide"><span class="tag">Speaking</span><h1>How to Introduce Yourself in Arabic</h1>
+    <p>Introductions in the Arab world are unhurried and warm: a greeting, a name, a handshake or a hand on the heart, and a few questions that show genuine interest. With the frames in this guide you can present yourself properly in Arabic in under a minute — and understand the questions that come back at you.</p>
+    <h2>Step 1 — Greet first, always</h2>
+    <p>Never open with your name. Open with <span class="ar" dir="rtl">السلام عليكم</span> (as-salamu alaykum — peace be upon you) and answer any greeting you receive with <span class="ar" dir="rtl">وعليكم السلام</span> (wa alaykum as-salam). A smile and, among friends of the same gender, a handshake complete the opening. Our <a href="#guide-greetings">greetings guide</a> covers the full etiquette.</p>
+    <h2>Step 2 — Say your name</h2>
+    <p>The frame is <span class="ar" dir="rtl">اسمي</span> (ismi — my name is) plus your name: <span class="ar" dir="rtl">اسمي سارة</span> (ismi Sara — my name is Sara). To ask theirs: <span class="ar" dir="rtl">ما اسمك؟</span> (ma ismuk? — what is your name?). Follow with <span class="ar" dir="rtl">تشرفنا</span> (tasharrafna — honoured to meet you) — the classic, gracious reply that Arabs use exactly where English says "pleased to meet you".</p>
+    <h2>Step 3 — Say where you are from</h2>
+    <p>Use <span class="ar" dir="rtl">أنا من</span> (ana min — I am from): <span class="ar" dir="rtl">أنا من باكستان</span> (ana min Pakistan — I am from Pakistan), <span class="ar" dir="rtl">أنا من لندن</span> (ana min London — I am from London). For the city where you live now, add <span class="ar" dir="rtl">أعيش في</span> (a'eesh fi — I live in): <span class="ar" dir="rtl">أعيش في دبي</span> (a'eesh fi Dubai — I live in Dubai).</p>
+    <h2>Step 4 — Age, family and work</h2>
+    <p>Age uses the word for years: <span class="ar" dir="rtl">عمري ثلاثون سنة</span> (umri thalathoon sana — I am thirty years old, literally "my age is thirty years"). Work is <span class="ar" dir="rtl">أعمل</span> (a'mal — I work as): <span class="ar" dir="rtl">أعمل مهندسا</span> (a'mal muhandisan — I work as an engineer), <span class="ar" dir="rtl">أعمل معلما</span> (a'mal mu'alliman — I work as a teacher). Students say <span class="ar" dir="rtl">أنا طالب</span> (ana taalib — I am a student) or <span class="ar" dir="rtl">أنا طالبة</span> (ana taaliba) if female. Family words — if you want them — are all in our <a href="#guide-family">family guide</a>.</p>
+    <h2>A full example</h2>
+    <p>Put it together: <span class="ar" dir="rtl">السلام عليكم. اسمي أحمد، وأنا من مصر. أعيش في القاهرة، وأعمل مهندسا. عمري ثلاثون سنة. تشرفنا!</span> (as-salamu alaykum. ismi Ahmed, wa ana min Misr. a'eesh fil-Qahira, wa a'mal muhandisan. umri thalathoon sana. tasharrafna!) — "Peace be upon you. My name is Ahmed, and I am from Egypt. I live in Cairo, and I work as an engineer. I am thirty years old. Honoured to meet you!"</p>
+    <p>Now build your own version with the <a href="#home">translator</a>: write your introduction in English, translate it, and practise it aloud until it feels like yours. Then all that remains is to use it — and Arab hospitality will do the rest.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-food">Arabic for Food Lovers</a> &middot; <a href="#guide-sentences">How Arabic Sentences Work</a> &middot; <a href="#guide-beginners">Arabic for Beginners</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-food"><article class="guide"><span class="tag">Food &amp; Drink</span><h1>Arabic for Food Lovers: Eating Your Way Across the Arab World</h1>
+    <p>Food is the Arab world's love language. Meals are generous, shared and unhurried, and knowing the names of the great dishes — plus a few phrases for ordering and praising — turns eating from a necessity into the best part of your trip. This guide is a tour of the table, region by region.</p>
+    <h2>The dishes everyone should know</h2>
+    <p>Start with the classics that appear from Amman to Riyadh. <span class="ar" dir="rtl">حمص</span> (hummus) — chickpea dip with tahini — and its smoky cousin made from aubergine, <span class="ar" dir="rtl">متبل</span> (mutabbal), open most Levantine meals alongside warm <span class="ar" dir="rtl">خبز</span> (khubz — bread). <span class="ar" dir="rtl">فلافل</span> (falafel) — crisp fried balls of chickpea or fava bean — is the region's favourite street food. <span class="ar" dir="rtl">شاورما</span> (shawarma) needs no introduction: marinated meat shaved from a turning spit into bread with pickles and garlic sauce. In the Gulf, the celebration dish is <span class="ar" dir="rtl">كبسة</span> (kabsa) — fragrant spiced rice with chicken or lamb, served on a platter for sharing — and Jordan answers with <span class="ar" dir="rtl">منسف</span> (mansaf), lamb in dried-yoghurt sauce over rice. Save room for <span class="ar" dir="rtl">كنافة</span> (kunafa), the molten-cheese dessert under shredded pastry and syrup that has started arguments between cities claiming to have invented it.</p>
+    <h2>Ordering like a local</h2>
+    <p>A restaurant is a <span class="ar" dir="rtl">مطعم</span> (mat'am) and the menu is <span class="ar" dir="rtl">القائمة</span> (al-qa'ima). Order with <span class="ar" dir="rtl">أريد</span> (ureed — I would like): <span class="ar" dir="rtl">أريد كبسة من فضلك</span> (ureed kabsa min fadlik — I would like a kabsa, please). Ask <span class="ar" dir="rtl">ما هو الطبق الخاص اليوم؟</span> (ma huwa at-tabaq al-khaas al-yawm? — what is today's special?) for the dish the kitchen is proudest of. Drinks: <span class="ar" dir="rtl">شاي</span> (shay — tea, often with mint or sage) and <span class="ar" dir="rtl">قهوة</span> (qahwa — coffee, traditionally unsweetened and cardamom-scented in the Gulf) will arrive whether you order them or not.</p>
+    <h2>Needs and preferences</h2>
+    <p>Say <span class="ar" dir="rtl">أنا نباتي</span> (ana nabaati — I am vegetarian) early; kitchens will happily build a meal around the region's superb vegetable and lentil dishes. For allergies, use our <a href="#guide-emergency">emergency guide</a>'s word <span class="ar" dir="rtl">حساسية</span> (hasaasiyya). "Without sugar" is <span class="ar" dir="rtl">بدون سكر</span> (bidoon sukkar) — essential for the famously sweet tea — and "a little spicy" is <span class="ar" dir="rtl">حار قليلا</span> (haar qaleelan).</p>
+    <h2>Praising the food (and the cook)</h2>
+    <p>Compliments matter. <span class="ar" dir="rtl">إنه لذيذ</span> (innahu latheeth — it is delicious) is the basic line; level up with <span class="ar" dir="rtl">أشهى طعام ذقته</span> (ashha ta'am dhuqtuh — the tastiest food I have had). In a home, thank the cook with <span class="ar" dir="rtl">تسلم يداك</span> (taslam yadaak — "may your hands be safe"), the traditional blessing for the person who cooked. When you are full — truly full, because more will be offered — <span class="ar" dir="rtl">الحمد لله، شبعت</span> (alhamdulillah, shabi't — praise God, I am full) is the graceful way to stop.</p>
+    <p>Ask for the bill with <span class="ar" dir="rtl">الفاتورة من فضلك</span> (al-fatura min fadlik — the bill, please), and keep the <a href="#phrases">phrasebook</a> open beside your plate. Hungry for more words? Our <a href="#guide-words">vocabulary guide</a> has a full food section to revise between meals.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-sentences">How Arabic Sentences Work</a> &middot; <a href="#guide-beginners">Arabic for Beginners</a> &middot; <a href="#guide-alphabet">The Arabic Alphabet</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-guide-sentences"><article class="guide"><span class="tag">Grammar Basics</span><h1>How Arabic Sentences Are Built: Word Order, Gender and Plurals</h1>
+    <p>Once you can spot how Arabic sentences are assembled, the whole language becomes less mysterious. Arabic grammar has a reputation for complexity, but its foundations rest on a few clear ideas — and two of them will feel easier than English, not harder. This guide lays out the architecture; keep it beside the <a href="#home">translator</a> and test every pattern with your own sentences.</p>
+    <h2>Pattern one: the verb comes first</h2>
+    <p>A classic Arabic sentence opens with the verb: <span class="ar" dir="rtl">كتب الطالب الدرس</span> (kataba at-taalib ad-dars — "wrote the student the lesson", i.e. the student wrote the lesson). This verb–subject–object order is the signature of formal Arabic. Modern writing also uses the English-like subject-first order freely, which is why the translator's output may start with the subject — both are correct, and Arabs move between them without thinking.</p>
+    <h2>Pattern two: the sentence with no verb at all</h2>
+    <p>Arabic has no present-tense word for "is" or "are". Instead it simply places subject and description side by side: <span class="ar" dir="rtl">البيت كبير</span> (al-bayt kabeer — "the house big", meaning the house is big). These are called nominal sentences, and they are everywhere. The word "was" does exist — <span class="ar" dir="rtl">كان</span> (kaana) — so the past tense gets a verb while the present does without one.</p>
+    <h2>Every noun is masculine or feminine</h2>
+    <p>Unlike English, Arabic gives every noun a gender. Masculine is the default; feminine nouns usually end in the letter ta marbuta (<span class="ar" dir="rtl">ة</span>), pronounced "a": <span class="ar" dir="rtl">سيارة</span> (sayyaara — car, feminine) versus <span class="ar" dir="rtl">بيت</span> (bayt — house, masculine). Adjectives follow their noun and copy its gender: <span class="ar" dir="rtl">سيارة جديدة</span> (sayyaara jadeeda — a new car), <span class="ar" dir="rtl">بيت جديد</span> (bayt jadeed — a new house). This is also why "you" and "thank you" forms shift when spoken to a woman — the pattern runs through the whole language, as our <a href="#guide-tips">accuracy guide</a> explains.</p>
+    <h2>Plurals: tidy ones and broken ones</h2>
+    <p>Some plurals are regular — add an ending and you are done, as in <span class="ar" dir="rtl">معلمون</span> (mu'allimoon — teachers). But Arabic is famous for "broken plurals", where the inside of the word reshapes itself: <span class="ar" dir="rtl">كتاب</span> (kitaab — book) becomes <span class="ar" dir="rtl">كتب</span> (kutub — books), and <span class="ar" dir="rtl">رجل</span> (rajul — man) becomes <span class="ar" dir="rtl">رجال</span> (rijaal — men). Do not memorise them one by one; you will absorb the common ones by reading, and the translator always chooses the right one for you.</p>
+    <h2>The root system: Arabic's master key</h2>
+    <p>Underneath everything sits the most elegant idea in the language: most words grow from a root of three consonants. The root <span class="ar" dir="rtl">ك ت ب</span> (k-t-b) carries the idea of writing, and from it Arabic builds <span class="ar" dir="rtl">كتب</span> (kataba — he wrote), <span class="ar" dir="rtl">كتاب</span> (kitaab — book), <span class="ar" dir="rtl">كاتب</span> (kaatib — writer), <span class="ar" dir="rtl">مكتبة</span> (maktaba — library) and <span class="ar" dir="rtl">مكتب</span> (maktab — office). Learn a root and you have learned a family. It is the single best reason to keep going after the beginner stage — vocabulary starts to organise itself.</p>
+    <p>Revisit our <a href="#guide-beginners">beginners guide</a> with these patterns in mind and you will see them everywhere. That is when Arabic stops being a code to crack and becomes a system to enjoy.</p>
+<p style="margin-top:18px"><strong>Keep learning:</strong> <a href="#guide-beginners">Arabic for Beginners</a> &middot; <a href="#guide-alphabet">The Arabic Alphabet</a> &middot; <a href="#guide-tips">Translate More Accurately</a></p><a class="backlink" href="#guides">&larr; Back to all guides</a></article></section>
+<section class="page" id="page-faq"><div class="static"><h1>Frequently Asked Questions</h1><div class="faqitem"><h3>Is this English to Arabic translator free?</h3><p>Yes. Translating, the phrasebook and all sixteen guides are completely free, with no sign-up and no account. The tool runs in your browser and gives you unlimited everyday translations of up to 2,000 characters at a time.</p></div><div class="faqitem"><h3>Which kind of Arabic does it produce?</h3><p>Modern Standard Arabic (MSA) — the shared written form used in news, books, official documents and business across all Arab countries. It is understood everywhere from Morocco to Iraq. Spoken dialects differ by country, and our travel guide explains how MSA and dialect fit together.</p></div><div class="faqitem"><h3>Why does the Arabic text run right-to-left?</h3><p>Arabic is written from right to left — the opposite direction to English. The translation box on this site sets the direction automatically, and when you copy Arabic into WhatsApp, email or a document, the text keeps its correct right-to-left layout because it is standard Unicode.</p></div><div class="faqitem"><h3>Can I translate Arabic back into English?</h3><p>Yes. Click the round swap button between the language names on the home page. The input box switches to right-to-left for comfortable Arabic typing, and your Arabic text is translated into English on the other side.</p></div><div class="faqitem"><h3>How accurate is the translation?</h3><p>For everyday sentences, messages and travel language it is very good, especially when you write complete, clearly punctuated sentences. For legal contracts, medical documents or anything where a single word carries serious consequences, have the result checked by a professional human translator.</p></div><div class="faqitem"><h3>Why are there no little vowel marks in the Arabic output?</h3><p>Those marks (called harakat) show short vowels, but everyday Arabic — newspapers, signs, messages, books for adults — is normally written without them, and native readers supply the vowels from context. Children's books and the Quran print them in full. Our phrasebook gives you a pronunciation line in English letters for every phrase instead.</p></div><div class="faqitem"><h3>What is the character limit?</h3><p>You can translate up to 2,000 characters at once — roughly a long paragraph or a full page of a letter. For longer documents, translate one paragraph at a time; you will usually get cleaner Arabic that way too.</p></div><div class="faqitem"><h3>Do you store the text I translate?</h3><p>No. Your text is sent only to the translation service needed to translate it, and we keep no copy on any server. The Recent translations list is stored only in your own browser, on your own device, and you can clear it any time with the Clear button.</p></div><div class="faqitem"><h3>Can I use the translations in my own messages and posts?</h3><p>Of course. Copy the Arabic into WhatsApp, Facebook, email or documents freely — that is exactly what the tool is for. The translations are standard Unicode Arabic and display correctly on phones and computers.</p></div><div class="faqitem"><h3>Where should a complete beginner start?</h3><p>Start with the Arabic for Beginners guide, then the Arabic Alphabet guide to understand the script, and learn ten phrases a day from the phrasebook. Within a few weeks you will be reading signs and holding simple conversations.</p></div><p>Still curious? Read the <a href="#guide-beginners">beginners guide</a> or <a href="#contact">contact us</a>.</p></div></section>
+
+<section class="page" id="page-about">
+  <div class="static">
+    <h1>About Translate English to Arabic</h1>
+    <p>Translate English to Arabic is a free language tool built for one simple purpose: to make Arabic feel approachable. Arabic has a reputation as a difficult language, mostly because its script looks unfamiliar. In reality it is a logical, beautifully patterned language — and this site exists to prove it, one translation at a time.</p>
+    <h2>What you will find here</h2>
+    <ul>
+      <li>A <a href="#home">free translator</a> that turns English into clear Modern Standard Arabic in real Arabic script, and Arabic back into English.</li>
+      <li>A <a href="#phrases">phrasebook</a> of the everyday phrases travellers and learners need first, each with a pronunciation guide in English letters.</li>
+      <li>Sixteen original <a href="#guides">guides</a> covering the alphabet, numbers, family words, greetings, shopping, emergencies, festivals, food and how Arabic sentences are built.</li>
+    </ul>
+    <h2>Who it is for</h2>
+    <p>Students starting Arabic from zero; travellers heading to Egypt, the UAE, Saudi Arabia, Jordan, Morocco or anywhere in the Arabic-speaking world; families who want to message relatives in their own language; and professionals who need quick, dependable everyday translations. Wherever you are starting from, you are welcome here — ahlan wa sahlan.</p>
+    <h2>How the translations work</h2>
+    <p>Common phrases are answered instantly from the built-in phrasebook. Everything else is translated live by established machine-translation services into Modern Standard Arabic. Machine translation is excellent for everyday language, but for legal, medical or other high-stakes documents we always recommend a professional human translator — our FAQ explains more.</p>
+    <p>Questions or suggestions? Visit the <a href="#contact">Contact page</a>.</p>
+  </div>
+</section>
+
+
+<section class="page" id="page-contact">
+  <div class="static">
+    <h1>Contact Us</h1>
+    <p>Questions about the translator, a correction to a phrase, or an idea for a new guide? We read everything and reply as quickly as we can.</p>
+    <p>Email us at:</p>
+    <a class="mailbig" href="mailto:contact@translateenglishtoarabic.github.io">contact@translateenglishtoarabic.github.io</a>
+    <h2>Before you write</h2>
+    <ul>
+      <li>Many common questions are answered on the <a href="#faq">FAQ page</a>.</li>
+      <li>If a translation looks wrong, please include the exact English sentence you entered — that helps us reproduce the problem.</li>
+      <li>We cannot provide certified or legal translations; for official documents, please hire a professional translator.</li>
+    </ul>
+  </div>
+</section>
+
+
+<section class="page" id="page-privacy">
+  <div class="static">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: 2026. This page explains, in plain language, what information this website does and does not collect.</p>
+    <h2>Text you translate</h2>
+    <p>When you press Translate, your text is sent over a secure connection to a machine-translation service so it can be translated, and the result is returned to your browser. We do not store your text on our own servers, and we do not use it for any other purpose.</p>
+    <h2>Recent translations</h2>
+    <p>The Recent translations feature stores your latest translations only in your own browser's local storage, on your own device. It is never sent to us. You can remove it at any time by clearing your browser data, and the Clear button empties the current boxes.</p>
+    <h2>Cookies and analytics</h2>
+    <p>This site may use privacy-respecting analytics to understand which pages and guides are most useful, in aggregate and without identifying individual visitors. Advertising partners, if used, may set cookies in line with their own policies; you can block or delete cookies in your browser settings at any time.</p>
+    <h2>Accounts and personal data</h2>
+    <p>There are no accounts, no sign-ups and no forms that ask for personal information on this site. If you email us, we will use your address only to reply.</p>
+    <h2>Changes</h2>
+    <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+  </div>
+</section>
+
+
+<section class="page" id="page-terms">
+  <div class="static">
+    <h1>Terms of Use</h1>
+    <p>Last updated: 2026. By using Translate English to Arabic you agree to these simple terms.</p>
+    <h2>The service</h2>
+    <p>This website provides a free online English-to-Arabic and Arabic-to-English translator, a phrasebook and language-learning guides for personal and general use. The service is provided "as is", without warranties of any kind.</p>
+    <h2>Acceptable use</h2>
+    <ul>
+      <li>Use the translator for lawful purposes only.</li>
+      <li>Do not attempt to disrupt, overload or scrape the service automatically.</li>
+      <li>You are responsible for how you use any translation you obtain.</li>
+    </ul>
+    <h2>Content</h2>
+    <p>The guides and phrasebook content on this site are original and may be quoted briefly with a link back to this site. Translations you generate are yours to use in your messages, posts and documents.</p>
+    <h2>Liability</h2>
+    <p>Machine translation can make mistakes. We are not liable for losses arising from reliance on a translation; for high-stakes documents, always use a qualified human translator.</p>
+  </div>
+</section>
+
+
+<section class="page" id="page-disclaimer">
+  <div class="static">
+    <h1>Disclaimer</h1>
+    <p>Last updated: 2026.</p>
+    <p>The translations provided by this website are generated by machine translation and are intended for everyday communication, learning and general understanding. While they are usually accurate for common language, they may contain errors, awkward phrasing or forms that do not match a specific country's dialect.</p>
+    <p>Do not rely on this tool as the sole source for legal contracts, medical instructions, immigration documents, religious texts or any other material where precision is critical. In those cases, please consult a certified professional translator.</p>
+    <p>The learning guides on this site simplify some grammar points to keep them beginner-friendly. They are a starting point for study, not a complete grammar of the Arabic language.</p>
+    <p>This site is an independent language resource and is not affiliated with any government, university or translation company.</p>
+  </div>
+</section>
+
+
+</main>
+<footer>
+  <div class="fwrap">
+    <div>
+      <h4>Translator</h4>
+      <a href="#home">English to Arabic Translator</a>
+      <a href="#how">How to Use</a>
+      <a href="#phrases">Arabic Phrasebook</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div>
+      <h4>Learn Arabic</h4>
+      <a href="#guides">All Guides</a>
+      <a href="#guide-beginners">Arabic for Beginners</a>
+      <a href="#guide-alphabet">The Arabic Alphabet</a>
+      <a href="#guide-numbers">Arabic Numbers</a>
+      <a href="#guide-words">Everyday Vocabulary</a>
+    </div>
+    <div>
+      <h4>Popular Guides</h4>
+      <a href="#guide-travel">Travel Phrases</a>
+      <a href="#guide-greetings">Greetings &amp; Goodbyes</a>
+      <a href="#guide-festivals">Ramadan &amp; Eid</a>
+      <a href="#guide-food">Arabic for Food Lovers</a>
+      <a href="#guide-emergency">Emergency &amp; Health</a>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Use</a>
+      <a href="#disclaimer">Disclaimer</a>
+    </div>
+  </div>
+  <div class="fbottom">&copy; 2026 Translate English to Arabic. Free English to Arabic translation, phrasebook and learning guides.</div>
+</footer>
+
+
+<script>
+var PHRASES = [["Hello", "مرحبا", "marhaban", "Greetings"], ["Peace be upon you", "السلام عليكم", "as-salamu alaykum", "Greetings"], ["Good morning", "صباح الخير", "sabah al-khayr", "Greetings"], ["Good evening", "مساء الخير", "masa al-khayr", "Greetings"], ["How are you?", "كيف حالك؟", "kayfa haluk?", "Greetings"], ["I am fine", "أنا بخير", "ana bikhayr", "Greetings"], ["What is your name?", "ما اسمك؟", "ma ismuk?", "Greetings"], ["My name is...", "اسمي...", "ismi...", "Greetings"], ["Welcome", "أهلا وسهلا", "ahlan wa sahlan", "Greetings"], ["Goodbye", "مع السلامة", "ma'a as-salama", "Greetings"], ["See you later", "إلى اللقاء", "ila al-liqa", "Greetings"], ["Good night", "تصبح على خير", "tusbih ala khayr", "Greetings"], ["Thank you", "شكرا", "shukran", "Courtesy"], ["Thank you very much", "شكرا جزيلا", "shukran jazeelan", "Courtesy"], ["Please", "من فضلك", "min fadlik", "Courtesy"], ["Sorry", "آسف", "aasif", "Courtesy"], ["Excuse me", "عفوا", "afwan", "Courtesy"], ["Yes", "نعم", "na'am", "Courtesy"], ["No", "لا", "la", "Courtesy"], ["Congratulations", "مبروك", "mabrook", "Courtesy"], ["Happy birthday", "عيد ميلاد سعيد", "eid milad saeed", "Courtesy"], ["Where is...?", "أين...؟", "ayna...?", "Travel"], ["How much is this?", "كم الثمن؟", "kam ath-thaman?", "Travel"], ["Turn left", "انعطف يسارا", "in'atif yasaaran", "Travel"], ["Turn right", "انعطف يمينا", "in'atif yameenan", "Travel"], ["Stop here, please", "توقف هنا من فضلك", "tawaqqaf huna min fadlik", "Travel"], ["Go straight", "اذهب مباشرة", "idhhab mubasharatan", "Travel"], ["I am lost", "أنا ضائع", "ana daa'i", "Travel"], ["One ticket, please", "تذكرة واحدة من فضلك", "tadhkara wahida min fadlik", "Travel"], ["Water", "ماء", "ma'", "Food & Drink"], ["Food", "طعام", "ta'am", "Food & Drink"], ["Tea", "شاي", "shay", "Food & Drink"], ["Coffee", "قهوة", "qahwa", "Food & Drink"], ["The bill, please", "الفاتورة من فضلك", "al-fatura min fadlik", "Food & Drink"], ["It is delicious", "إنه لذيذ", "innahu latheeth", "Food & Drink"], ["I am vegetarian", "أنا نباتي", "ana nabaati", "Food & Drink"], ["Help!", "النجدة!", "an-najda!", "Emergency"], ["Call a doctor", "اتصل بطبيب", "ittasel bi-tabeeb", "Emergency"], ["Where is the hospital?", "أين المستشفى؟", "ayna al-mustashfa?", "Emergency"], ["I am not well", "أنا لست بخير", "ana lastu bikhayr", "Emergency"], ["Call the police", "اتصل بالشرطة", "ittasel bish-shurta", "Emergency"], ["Be careful", "كن حذرا", "kun hadhiran", "Emergency"], ["I don't understand", "أنا لا أفهم", "ana la afham", "Everyday"], ["Please speak slowly", "تكلم ببطء من فضلك", "takallam bi-but' min fadlik", "Everyday"], ["Today", "اليوم", "al-yawm", "Everyday"], ["Tomorrow", "غدا", "ghadan", "Everyday"], ["Ramadan Kareem", "رمضان كريم", "ramadan kareem", "Everyday"], ["Eid Mubarak", "عيد مبارك", "eid mubarak", "Everyday"]];
+function norm(s){return s.toLowerCase().trim().replace(/[.!?\u061F]+$/,'').replace(/\s+/g,' ');}
+var PH_FWD = {}, PH_REV = {};
+PHRASES.forEach(function(p){ PH_FWD[norm(p[0])] = p[1]; PH_REV[norm(p[1])] = p[0]; });
+
+var direction = 'en-ar';
+var srcText = document.getElementById('srcText');
+var tgtText = document.getElementById('tgtText');
+var srcLang = document.getElementById('srcLang');
+var tgtLang = document.getElementById('tgtLang');
+var charCount = document.getElementById('charCount');
+var statusLine = document.getElementById('statusLine');
+
+function applyDirection(){
+  if(direction === 'en-ar'){
+    srcLang.textContent = 'English';
+    tgtLang.innerHTML = 'Arabic (&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;)';
+    srcText.dir = 'ltr'; srcText.classList.remove('arabic');
+    srcText.placeholder = 'Enter English text';
+    tgtText.dir = 'rtl'; tgtText.classList.add('arabic');
+    tgtText.placeholder = 'Your Arabic translation will appear here.';
+  } else {
+    srcLang.innerHTML = 'Arabic (&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;)';
+    tgtLang.textContent = 'English';
+    srcText.dir = 'rtl'; srcText.classList.add('arabic');
+    srcText.placeholder = 'Enter Arabic text';
+    tgtText.dir = 'ltr'; tgtText.classList.remove('arabic');
+    tgtText.placeholder = 'Your English translation will appear here.';
+  }
+}
+document.getElementById('swapBtn').addEventListener('click', function(){
+  direction = (direction === 'en-ar') ? 'ar-en' : 'en-ar';
+  var t = srcText.value; srcText.value = tgtText.value; tgtText.value = t;
+  applyDirection(); updateCount();
+});
+function updateCount(){ charCount.textContent = srcText.value.length; }
+srcText.addEventListener('input', updateCount);
+srcText.addEventListener('keydown', function(e){ if(e.ctrlKey && e.key === 'Enter'){ doTranslate(); } });
+document.querySelectorAll('.chip').forEach(function(c){
+  c.addEventListener('click', function(){
+    if(direction !== 'en-ar'){ direction = 'en-ar'; applyDirection(); }
+    srcText.value = c.getAttribute('data-ex'); updateCount(); doTranslate();
+  });
+});
+document.getElementById('clearBtn').addEventListener('click', function(){
+  srcText.value=''; tgtText.value=''; statusLine.textContent=''; updateCount(); srcText.focus();
+});
+document.getElementById('copyBtn').addEventListener('click', function(){
+  if(!tgtText.value){ statusLine.textContent = 'Nothing to copy yet — translate something first.'; return; }
+  copyText(tgtText.value, 'Translation copied.');
+});
+function copyText(txt, msg){
+  function done(){ statusLine.textContent = msg; }
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(done).catch(function(){ fallback(); });
+  } else { fallback(); }
+  function fallback(){
+    var ta = document.createElement('textarea');
+    ta.value = txt; document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); done(); } catch(e){ statusLine.textContent = 'Copy failed — please select the text and copy it manually.'; }
+    document.body.removeChild(ta);
+  }
+}
+function splitChunks(text){
+  var chunks = [], cur = '';
+  var parts = text.match(/[^.!?\n]+[.!?]*\s*|\n+/g) || [text];
+  parts.forEach(function(p){
+    if((cur + p).length > 450 && cur){ chunks.push(cur); cur = ''; }
+    while(p.length > 450){ chunks.push(p.slice(0,450)); p = p.slice(450); }
+    cur += p;
+  });
+  if(cur) chunks.push(cur);
+  return chunks;
+}
+function parseClients5(j){
+  if(typeof j === 'string') return j;
+  if(Array.isArray(j)){
+    if(typeof j[0] === 'string') return j[0];
+    if(Array.isArray(j[0])){
+      return j[0].map(function(s){ return Array.isArray(s) ? (s[0] || '') : ''; }).join(' ');
+    }
+  }
+  if(j && j.sentences){ return j.sentences.map(function(s){ return s.trans || ''; }).join(' '); }
+  return '';
+}
+function fetchClients5(text, sl, tl){
+  var url = 'https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=' + sl + '&tl=' + tl + '&q=' + encodeURIComponent(text);
+  return fetch(url).then(function(r){ if(!r.ok) throw new Error('bad'); return r.json(); }).then(function(j){
+    var out = parseClients5(j);
+    if(!out) throw new Error('empty');
+    return out;
+  });
+}
+function fetchMyMemory(text, sl, tl){
+  var url = 'https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text) + '&langpair=' + sl + '|' + tl;
+  return fetch(url).then(function(r){ return r.json(); }).then(function(j){
+    var out = j && j.responseData && j.responseData.translatedText;
+    if(!out) throw new Error('empty');
+    return out;
+  });
+}
+function translateChunk(text, sl, tl){
+  return fetchClients5(text, sl, tl).catch(function(){ return fetchMyMemory(text, sl, tl); });
+}
+function saveRecent(src, tgt){
+  try {
+    var list = JSON.parse(localStorage.getItem('tea_recents') || '[]');
+    list.unshift({s: src, t: tgt, d: direction});
+    list = list.slice(0, 6);
+    localStorage.setItem('tea_recents', JSON.stringify(list));
+    renderRecents();
+  } catch(e){}
+}
+function renderRecents(){
+  var box = document.getElementById('recentsBox');
+  var listEl = document.getElementById('recentsList');
+  var list = [];
+  try { list = JSON.parse(localStorage.getItem('tea_recents') || '[]'); } catch(e){}
+  if(!list.length){ box.style.display = 'none'; return; }
+  box.style.display = 'block';
+  listEl.innerHTML = '';
+  list.forEach(function(item){
+    var d = document.createElement('div');
+    d.className = 'recent';
+    var a = document.createElement('div'); a.className = 'r-src'; a.textContent = item.s;
+    var b = document.createElement('div'); b.className = 'r-tgt'; b.textContent = item.t;
+    if(item.d === 'en-ar'){ b.classList.add('ar'); b.dir = 'rtl'; }
+    d.appendChild(a); d.appendChild(b);
+    d.addEventListener('click', function(){
+      direction = item.d; applyDirection();
+      srcText.value = item.s; tgtText.value = item.t; updateCount();
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+    listEl.appendChild(d);
+  });
+}
+function doTranslate(){
+  var text = srcText.value.trim();
+  if(!text){ statusLine.textContent = 'Please enter some text first.'; return; }
+  var sl = direction === 'en-ar' ? 'en' : 'ar';
+  var tl = direction === 'en-ar' ? 'ar' : 'en';
+  var key = norm(text);
+  var book = direction === 'en-ar' ? PH_FWD[key] : PH_REV[key];
+  if(book){
+    tgtText.value = book;
+    statusLine.textContent = 'Answered instantly from the built-in phrasebook.';
+    saveRecent(text, book);
+    return;
+  }
+  statusLine.textContent = 'Translating...';
+  var chunks = splitChunks(text);
+  var results = [];
+  var chain = Promise.resolve();
+  chunks.forEach(function(ch){
+    chain = chain.then(function(){
+      return translateChunk(ch, sl, tl).then(function(r){ results.push(r); });
+    });
+  });
+  chain.then(function(){
+    tgtText.value = results.join(' ');
+    statusLine.textContent = '';
+    saveRecent(text, tgtText.value);
+  }).catch(function(){
+    statusLine.textContent = 'Translation service is unreachable right now — please check your connection and try again.';
+  });
+}
+document.getElementById('translateBtn').addEventListener('click', doTranslate);
+
+/* Phrasebook page */
+var phraseBody = document.getElementById('phraseBody');
+if(phraseBody){
+  PHRASES.forEach(function(p){
+    var tr = document.createElement('tr');
+    tr.setAttribute('data-cat', p[3]);
+    tr.setAttribute('data-search', (p[0] + ' ' + p[2]).toLowerCase());
+    var td1 = document.createElement('td'); td1.textContent = p[0];
+    var td2 = document.createElement('td'); td2.className = 'a'; td2.dir = 'rtl'; td2.textContent = p[1];
+    var td3 = document.createElement('td'); td3.className = 't'; td3.textContent = p[2];
+    var td4 = document.createElement('td');
+    var btn = document.createElement('button'); btn.className = 'copybtn'; btn.textContent = 'Copy';
+    btn.addEventListener('click', function(){ copyText(p[1], 'Phrase copied: ' + p[0]); });
+    td4.appendChild(btn);
+    tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3); tr.appendChild(td4);
+    phraseBody.appendChild(tr);
+  });
+  var cats = ['All','Greetings','Courtesy','Travel','Food & Drink','Emergency','Everyday'];
+  var catBtns = document.getElementById('catBtns');
+  var activeCat = 'All';
+  cats.forEach(function(c){
+    var b = document.createElement('button');
+    b.textContent = c; if(c === 'All') b.className = 'on';
+    b.addEventListener('click', function(){
+      activeCat = c;
+      catBtns.querySelectorAll('button').forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on'); filterPhrases();
+    });
+    catBtns.appendChild(b);
+  });
+  document.getElementById('phraseSearch').addEventListener('input', filterPhrases);
+  function filterPhrases(){
+    var q = document.getElementById('phraseSearch').value.toLowerCase().trim();
+    phraseBody.querySelectorAll('tr').forEach(function(tr){
+      var okCat = (activeCat === 'All' || tr.getAttribute('data-cat') === activeCat);
+      var okQ = (!q || tr.getAttribute('data-search').indexOf(q) !== -1);
+      tr.style.display = (okCat && okQ) ? '' : 'none';
+    });
+  }
+}
+
+/* Router */
+var TITLES = {"home": "Translate English to Arabic — Free Online Translator with Phrasebook & Guides", "how": "How to Use the English to Arabic Translator — Translate English to Arabic", "phrases": "Common English Phrases in Arabic — Translate English to Arabic", "guides": "Arabic Guides & Articles — Translate English to Arabic", "faq": "Frequently Asked Questions — Translate English to Arabic", "about": "About — Translate English to Arabic", "contact": "Contact — Translate English to Arabic", "privacy": "Privacy Policy — Translate English to Arabic", "terms": "Terms of Use — Translate English to Arabic", "disclaimer": "Disclaimer — Translate English to Arabic", "guide-beginners": "Arabic for Beginners: A Friendly Starting Guide — Translate English to Arabic", "guide-alphabet": "The Arabic Alphabet: 28 Letters, Joining Rules & Shapes Explained — Translate English to Arabic", "guide-tips": "How to Translate English to Arabic Accurately — 9 Practical Tips — Translate English to Arabic", "guide-travel": "Essential Arabic Phrases for Travelling in the Arab World — Translate English to Arabic", "guide-numbers": "Arabic Numbers 1 to 100: Counting Made Simple — Translate English to Arabic", "guide-words": "Everyday Arabic Vocabulary: 60 Words You Will Use Daily — Translate English to Arabic", "guide-time": "Days, Months and Telling the Time in Arabic — Translate English to Arabic", "guide-family": "Family Words in Arabic: Relatives and Relationships — Translate English to Arabic", "guide-greetings": "Arabic Greetings and Goodbyes for Every Occasion — Translate English to Arabic", "guide-shopping": "Shopping and Bargaining in Arabic: Souk Phrases That Work — Translate English to Arabic", "guide-emergency": "Emergency and Health Phrases in Arabic — Translate English to Arabic", "guide-questions": "Arabic Question Words and Pronouns: Ask Anything — Translate English to Arabic", "guide-festivals": "Ramadan, Eid and Arabic Festivals: Words and Wishes — Translate English to Arabic", "guide-introduce": "How to Introduce Yourself in Arabic — Translate English to Arabic", "guide-food": "Arabic for Food Lovers: Dishes, Ordering & Restaurant Phrases — Translate English to Arabic", "guide-sentences": "How Arabic Sentences Are Built: Word Order, Gender and Plurals — Translate English to Arabic"};
+var NAVMAP = {"home": "home", "how": "how", "phrases": "phrases", "guides": "guides", "faq": "faq", "about": "about", "contact": "contact", "privacy": "about", "terms": "about", "disclaimer": "about", "guide-beginners": "guides", "guide-alphabet": "guides", "guide-tips": "guides", "guide-travel": "guides", "guide-numbers": "guides", "guide-words": "guides", "guide-time": "guides", "guide-family": "guides", "guide-greetings": "guides", "guide-shopping": "guides", "guide-emergency": "guides", "guide-questions": "guides", "guide-festivals": "guides", "guide-introduce": "guides", "guide-food": "guides", "guide-sentences": "guides"};
+function route(){
+  var h = (location.hash || '#home').replace('#','');
+  if(!TITLES.hasOwnProperty(h)) h = 'home';
+  document.querySelectorAll('.page').forEach(function(p){ p.classList.remove('active'); });
+  var el = document.getElementById('page-' + h);
+  if(el) el.classList.add('active');
+  document.title = TITLES[h];
+  var nav = NAVMAP[h] || h;
+  document.querySelectorAll('#topnav a').forEach(function(a){
+    a.classList.toggle('on', a.getAttribute('data-nav') === nav);
+  });
+  window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', route);
+applyDirection(); updateCount(); renderRecents(); route();
+</script>
+
+</body>
+</html>
